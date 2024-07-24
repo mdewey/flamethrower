@@ -59,6 +59,11 @@ const start = async () => {
 
 const other = async () => {
   await getAndSaveCernerResource({ resource: 'Patient', id: '12724065' });
+  await getAndSaveCernerResource({ resource: 'Encounter', id: '97953483' });
+  await getAndSaveCernerResource({ resource: 'MedicationRequest', id: '311877819' });
+  await getAndSaveCernerResource({ resource: 'Location', id: '2552105067' });
+  await getAndSaveCernerResource({ resource: 'Organization', id: '1024451' });
+  await getAndSaveCernerResource({ resource: 'Practitioner', id: '12724045' });
 };
 
 await other();

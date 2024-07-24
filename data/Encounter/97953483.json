@@ -1,0 +1,5257 @@
+{
+  "resourceType": "Bundle",
+  "id": "c3644258-be8c-4f97-acd0-3b8a664ce588",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Encounter?_id=97953483"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Encounter/97953483",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "97953483",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2023-12-19T21:54:37.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Encounter</b></p><p><b>Patient</b>: SMART, WILMA</p><p><b>Location</b>: Model Cancer Center, MX CC, MedOncClin</p><p><b>Type</b>: Inpatient</p><p><b>Service Type</b>: Medicine-General</p><p><b>Class</b>: inpatient encounter</p><p><b>Status</b>: Finished</p><p><b>Period Start Date</b>: Mar  4, 2020  5:58 P.M. UTC</p><p><b>Period End Date</b>: Sep 28, 2020  3:47 P.M. UTC</p><p><b>Reason For Visit</b>: Cancer</p><p><b>Attending Physician</b>: Cerner Test, Physician - Oncology Cerner</p><p><b>Service Provider</b>: Model Cancer Center</p></div>"
+        },
+        "extension": [
+          {
+            "id": "CA-0",
+            "extension": [
+              {
+                "id": "ENCNTR:204298207",
+                "valueString": "Full Reg User ID",
+                "url": "custom-attribute-name"
+              },
+              {
+                "valueString": "JG015148",
+                "url": "custom-attribute-value"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/custom-attribute"
+          },
+          {
+            "id": "CA-1",
+            "extension": [
+              {
+                "id": "ENCNTR:17368048",
+                "valueString": "Full Reg Date/Time",
+                "url": "custom-attribute-name"
+              },
+              {
+                "valueDateTime": "2020-03-04T18:00:36.000Z",
+                "url": "custom-attribute-value"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/custom-attribute"
+          },
+          {
+            "id": "CA-2",
+            "extension": [
+              {
+                "id": "ENCNTR:4047481",
+                "valueString": "Conversation",
+                "url": "custom-attribute-name"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/100040",
+                      "code": "4574095",
+                      "display": "Discharge",
+                      "userSelected": true
+                    }
+                  ],
+                  "text": "Discharge"
+                },
+                "url": "custom-attribute-value"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/custom-attribute"
+          },
+          {
+            "id": "CA-3",
+            "extension": [
+              {
+                "id": "ENCNTR:34310433",
+                "valueString": "Complete Reg?",
+                "url": "custom-attribute-name"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/20322",
+                      "code": "3542949",
+                      "display": "Yes",
+                      "userSelected": true
+                    }
+                  ],
+                  "text": "Yes"
+                },
+                "url": "custom-attribute-value"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/custom-attribute"
+          },
+          {
+            "id": "CA-4",
+            "extension": [
+              {
+                "id": "ENCNTR:684109",
+                "valueString": "Accident Related Visit",
+                "url": "custom-attribute-name"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/100700",
+                      "code": "684155",
+                      "display": "No",
+                      "userSelected": true
+                    }
+                  ],
+                  "text": "No"
+                },
+                "url": "custom-attribute-value"
+              }
+            ],
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/custom-attribute"
+          },
+          {
+            "valueMoney": {
+              "value": 0,
+              "currency": "USD"
+            },
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/estimated-financial-responsibility-amount"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/319",
+                  "code": "1077",
+                  "display": "FIN NBR",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "AN",
+                  "display": "Account number",
+                  "userSelected": false
+                }
+              ],
+              "text": "FIN NBR"
+            },
+            "system": "urn:oid:5.5.5.5.5.5.",
+            "value": "16002",
+            "period": {
+              "start": "2020-03-04T18:00:40.000Z"
+            }
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP",
+          "display": "inpatient encounter",
+          "userSelected": false
+        },
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/71",
+                "code": "309308",
+                "display": "Inpatient",
+                "userSelected": true
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0004",
+                "code": "I",
+                "display": "Inpatient",
+                "userSelected": false
+              }
+            ],
+            "text": "Inpatient"
+          }
+        ],
+        "serviceType": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/34",
+              "code": "313012",
+              "display": "Medicine-General",
+              "userSelected": true
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "700232004",
+              "display": "General medical service (qualifier value)",
+              "userSelected": false
+            }
+          ],
+          "text": "Medicine-General"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/3",
+              "code": "670840",
+              "display": "Elective",
+              "userSelected": true
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+              "code": "EL",
+              "display": "elective",
+              "userSelected": false
+            }
+          ],
+          "text": "Elective"
+        },
+        "subject": {
+          "reference": "Patient/12724065",
+          "display": "SMART, WILMA"
+        },
+        "participant": [
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1116",
+                    "display": "Admitting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ADM",
+                    "display": "admitter",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Admitting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-03-05T17:29:10.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/11817978",
+              "display": "Carter, Kristin Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1119",
+                    "display": "Attending Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "ATND",
+                    "display": "attender",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Attending Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-03-04T18:00:40.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/763923",
+              "display": "Cerner Test, Physician - Oncology Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2024-05-28T20:41:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12744839",
+              "display": "PWIntellicure, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-10T16:42:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-05T13:26:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-05T13:14:27.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-05T12:28:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-04T09:38:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-04T08:25:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-04T08:20:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-04T07:20:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-03T14:18:30.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-10-03T10:34:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-08-16T07:33:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-08-16T07:22:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-08-16T06:52:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-08-14T06:48:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-19T18:38:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-19T16:04:02.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-19T15:20:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-19T12:51:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-19T07:34:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-18T19:24:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-18T15:04:42.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-18T14:08:57.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-13T16:07:57.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-13T10:46:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-13T09:27:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-12T18:09:11.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-10T15:36:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-10T09:16:38.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-10T07:49:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-07T15:32:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-07T07:18:33.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-06T14:28:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-06T13:43:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-03T11:05:53.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-03T11:05:39.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-03T10:06:07.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-03T09:07:38.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-07-03T08:10:17.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-06-29T15:15:31.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-26T17:48:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12840391",
+              "display": "PWCareFusionTwo, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-26T17:01:52.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-26T16:29:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-26T05:02:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-25T14:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-25T11:15:31.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-25T10:33:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-24T18:54:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-24T07:56:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-23T13:15:24.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-19T12:11:05.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-19T09:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2023-05-11T11:11:09.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2022-05-16T12:48:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12784022",
+              "display": "PWAMWELL, HOSPITAL"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-12-06T15:02:11.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12750302",
+              "display": "PWTwistle, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-12-06T14:28:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742069",
+              "display": "Portal, Portal"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-12-06T14:04:15.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12750302",
+              "display": "PWTwistle, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-08-05T18:00:45.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12759637",
+              "display": "PWBayesianHealth, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-05-04T03:16:55.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732057",
+              "display": "PWSeamlessMD, Physician - Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-04-23T15:15:04.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732057",
+              "display": "PWSeamlessMD, Physician - Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-03-08T20:18:14.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-03-08T15:30:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-03-03T15:14:55.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-02-17T04:19:54.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-02-04T22:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-02-04T20:35:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-02-04T14:08:08.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2021-01-13T17:32:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-11-20T01:00:57.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-10-16T14:06:29.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-10-13T16:27:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732049",
+              "display": "PWUpToDate, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-10-13T15:55:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732049",
+              "display": "PWUpToDate, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-08-24T19:36:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732049",
+              "display": "PWUpToDate, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-08-20T16:11:04.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732063",
+              "display": "PWHealthTensor, Physician - Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-07-07T15:31:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742668",
+              "display": "PwHealthEndeavors, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-06-16T16:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742614",
+              "display": "PWSUKI, MDCARDIO"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-05-11T14:28:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742384",
+              "display": "PWMEDACTIONPLAN, Physician - Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1121",
+                    "display": "Consulting Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "CON",
+                    "display": "consultant",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Consulting Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-04-30T21:33:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/4122625",
+              "display": "Cerner Test, Physician - Cardiovascular Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1124",
+                    "display": "Other",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Other"
+              }
+            ],
+            "period": {
+              "start": "2020-09-18T16:41:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/1",
+              "display": "SYSTEM, SYSTEM Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1124",
+                    "display": "Other",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Other"
+              }
+            ],
+            "period": {
+              "start": "2020-07-06T17:27:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742667",
+              "display": "White, Adam"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1125",
+                    "display": "Registered Nurse",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "period": {
+              "start": "2021-07-07T17:12:37.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12746397",
+              "display": "Pwuptodate, RN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1125",
+                    "display": "Registered Nurse",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "period": {
+              "start": "2020-09-09T12:58:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742892",
+              "display": "PWFullMarks, RN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1125",
+                    "display": "Registered Nurse",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "period": {
+              "start": "2020-08-21T04:33:00.000Z",
+              "end": "2020-08-21T21:01:09.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742892",
+              "display": "PWFullMarks, RN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1125",
+                    "display": "Registered Nurse",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "period": {
+              "start": "2020-08-13T08:44:00.000Z",
+              "end": "2020-08-14T01:01:24.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742892",
+              "display": "PWFullMarks, RN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1125",
+                    "display": "Registered Nurse",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Registered Nurse"
+              }
+            ],
+            "period": {
+              "start": "2020-03-05T17:28:00.000Z",
+              "end": "2020-03-06T10:01:14.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/607928",
+              "display": "Cerner Test, Nurse Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "1126",
+                    "display": "Referring Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "REF",
+                    "display": "referrer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Referring Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-03-04T18:00:40.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/763923",
+              "display": "Cerner Test, Physician - Oncology Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2023-08-09T20:11:37.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12798938",
+              "display": "Barr Suffix, Title, Jesse"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2023-07-28T15:25:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2023-07-12T18:18:19.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2023-05-23T17:14:20.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2023-05-23T16:14:07.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2023-05-23T01:59:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12793249",
+              "display": "PWCareFusion, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2022-10-27T00:18:30.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742614",
+              "display": "PWSUKI, MDCARDIO"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "20384266",
+                    "display": "Peer Review",
+                    "userSelected": true
+                  }
+                ],
+                "text": "Peer Review"
+              }
+            ],
+            "period": {
+              "start": "2022-10-06T21:13:23.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12807021",
+              "display": "PWLungCancerScreening, Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2022-10-04T20:42:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742614",
+              "display": "PWSUKI, MDCARDIO"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2022-10-04T19:47:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742614",
+              "display": "PWSUKI, MDCARDIO"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2022-09-14T14:37:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12784000",
+              "display": "McMillan, Erika"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2022-09-13T20:31:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12784000",
+              "display": "McMillan, Erika"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2022-09-12T15:09:18.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12743472",
+              "display": "Allen, Jodi"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "3362683",
+                    "display": "ED Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "ED Physician"
+              }
+            ],
+            "period": {
+              "start": "2022-09-07T13:48:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/744113",
+              "display": "Cerner Test, Physician - Emergency Medicine Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2022-02-14T13:32:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12750302",
+              "display": "PWTwistle, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-09-15T18:08:47.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-09-07T15:41:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12762687",
+              "display": "PWLabCorp, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-09-02T18:10:44.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12762687",
+              "display": "PWLabCorp, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-09-01T17:26:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12762687",
+              "display": "PWLabCorp, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-03-11T21:33:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12747925",
+              "display": "PWASHA, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-03-11T14:39:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12747925",
+              "display": "PWASHA, MD, Cardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-02-17T17:48:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2021-02-17T05:16:20.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-10-28T16:35:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732049",
+              "display": "PWUpToDate, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681295",
+                    "display": "Physician (Office/Clinic Only)",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Physician (Office/Clinic Only)"
+              }
+            ],
+            "period": {
+              "start": "2020-10-28T14:07:38.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732049",
+              "display": "PWUpToDate, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-23T14:52:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12718044",
+              "display": "Mckenzie, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-22T15:23:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-18T21:33:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12743144",
+              "display": "CART, PW"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-16T15:39:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724064",
+              "display": "Spence, Open Platform IA, Stephen"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-16T15:22:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/1",
+              "display": "SYSTEM, SYSTEM Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-16T15:12:51.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-16T15:08:58.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12743897",
+              "display": "Akines, Armani"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-15T17:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-15T16:00:16.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12743897",
+              "display": "Akines, Armani"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-10T15:14:09.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-09T20:46:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-03T16:40:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-02T17:41:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-09-01T16:58:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-28T20:35:00.000Z",
+              "end": "2020-08-29T09:01:52.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12718044",
+              "display": "Mckenzie, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-28T08:39:00.000Z",
+              "end": "2020-08-28T21:01:56.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742070",
+              "display": "Kheang, Kol"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-27T21:27:00.000Z",
+              "end": "2020-08-28T10:01:10.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-27T19:04:00.000Z",
+              "end": "2020-08-28T08:01:02.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12718044",
+              "display": "Mckenzie, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-27T17:36:00.000Z",
+              "end": "2020-08-28T06:01:54.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742071",
+              "display": "Sarkar, Shriniket"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-27T15:28:00.000Z",
+              "end": "2020-08-28T04:01:46.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681292",
+                    "display": "Ambulatory: MA/RN",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Ambulatory: MA/RN"
+              }
+            ],
+            "period": {
+              "start": "2020-08-21T09:47:00.000Z",
+              "end": "2020-08-31T10:01:41.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742694",
+              "display": "PWMettle, AmbRN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-17T14:47:00.000Z",
+              "end": "2020-08-18T03:01:46.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-14T15:38:00.000Z",
+              "end": "2020-08-15T04:01:09.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-12T18:11:23.000Z",
+              "end": "2020-08-13T07:01:13.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-12T13:11:20.000Z",
+              "end": "2020-08-13T02:01:53.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "3362683",
+                    "display": "ED Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "ED Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-08-12T13:00:26.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732051",
+              "display": "PWHandtevy, Physician - Emergency Medicine"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-11T00:42:00.000Z",
+              "end": "2020-08-11T13:01:12.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724044",
+              "display": "Hensiek, Ashley"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-10T18:38:00.000Z",
+              "end": "2020-08-11T07:01:49.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12718044",
+              "display": "Mckenzie, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-06T14:58:00.000Z",
+              "end": "2020-08-07T03:01:18.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742490",
+              "display": "devexp, devexp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-06T14:56:00.000Z",
+              "end": "2020-08-07T03:01:18.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742530",
+              "display": "Hong, Jennifer"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-08-05T14:57:00.000Z",
+              "end": "2020-08-06T03:01:28.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742072",
+              "display": "Hanson, Nick"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681292",
+                    "display": "Ambulatory: MA/RN",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "SPRF",
+                    "display": "secondary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Ambulatory: MA/RN"
+              }
+            ],
+            "period": {
+              "start": "2020-07-29T18:20:00.000Z",
+              "end": "2020-08-08T19:01:20.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742694",
+              "display": "PWMettle, AmbRN"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "20384266",
+                    "display": "Peer Review",
+                    "userSelected": true
+                  }
+                ],
+                "text": "Peer Review"
+              }
+            ],
+            "period": {
+              "start": "2020-07-29T13:27:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742711",
+              "display": "PWJuxly, PhysicianHosp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-07-13T19:53:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732044",
+              "display": "PWMedActionPlan, Physician - Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-07-07T13:30:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742666",
+              "display": "PWReventics, MDCardio"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-07-02T16:20:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12732057",
+              "display": "PWSeamlessMD, Physician - Hospitalist"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-07-01T16:47:00.000Z",
+              "end": "2020-07-02T05:01:17.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742500",
+              "display": "Ario, Scot"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-06-26T16:10:42.000Z",
+              "end": "2020-06-27T05:01:20.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742530",
+              "display": "Hong, Jennifer"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-06-22T15:12:53.000Z",
+              "end": "2020-06-23T04:02:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742530",
+              "display": "Hong, Jennifer"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-06-01T16:48:00.000Z",
+              "end": "2020-06-02T05:01:40.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742530",
+              "display": "Hong, Jennifer"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "18883355",
+                    "display": "Covering Physician",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PPRF",
+                    "display": "primary performer",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Covering Physician"
+              }
+            ],
+            "period": {
+              "start": "2020-05-29T15:32:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742606",
+              "display": "PwOoda, Primary Care"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-05-27T18:58:00.000Z",
+              "end": "2020-05-28T07:02:01.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742596",
+              "display": "TEST, DBA"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-05-27T18:10:12.000Z",
+              "end": "2020-05-28T07:02:01.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742530",
+              "display": "Hong, Jennifer"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-05-21T15:17:24.000Z",
+              "end": "2020-05-22T04:01:59.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742596",
+              "display": "TEST, DBA"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-05-21T02:13:00.000Z",
+              "end": "2020-05-21T15:01:59.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742596",
+              "display": "TEST, DBA"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "4199415",
+                    "display": "HIM Specialist",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "HIM Specialist"
+              }
+            ],
+            "period": {
+              "start": "2020-05-14T20:19:21.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/744122",
+              "display": "Cerner Test, HIM - Specialist Cerner"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "242348525",
+                    "display": "Chart Review",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Chart Review"
+              }
+            ],
+            "period": {
+              "start": "2020-05-14T19:27:00.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742577",
+              "display": "MedActionPlanRN, PW"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-05-11T19:30:00.000Z",
+              "end": "2020-05-12T08:01:31.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-29T22:46:00.000Z",
+              "end": "2020-04-30T11:01:46.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-27T21:48:00.000Z",
+              "end": "2020-04-28T10:01:46.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-23T02:35:00.000Z",
+              "end": "2020-04-23T15:01:13.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742500",
+              "display": "Ario, Scot"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-22T19:25:00.000Z",
+              "end": "2020-04-23T08:01:46.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-21T22:14:37.000Z",
+              "end": "2020-04-22T11:01:05.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742071",
+              "display": "Sarkar, Shriniket"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-21T20:50:00.000Z",
+              "end": "2020-04-22T09:01:33.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12736052",
+              "display": "Scott, Justin"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-20T12:13:13.000Z",
+              "end": "2020-04-21T01:01:09.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742500",
+              "display": "Ario, Scot"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-16T16:52:00.000Z",
+              "end": "2020-04-17T05:01:16.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742490",
+              "display": "devexp, devexp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-14T15:35:00.000Z",
+              "end": "2020-04-15T04:01:12.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742500",
+              "display": "Ario, Scot"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-13T05:02:00.000Z",
+              "end": "2020-04-13T18:01:19.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742490",
+              "display": "devexp, devexp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-09T19:07:42.000Z",
+              "end": "2020-04-10T08:01:39.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742490",
+              "display": "devexp, devexp"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-04-09T18:29:00.000Z",
+              "end": "2020-04-10T07:01:48.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742500",
+              "display": "Ario, Scot"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-03-30T14:07:09.000Z",
+              "end": "2020-03-31T03:01:51.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742071",
+              "display": "Sarkar, Shriniket"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-03-29T17:59:00.000Z",
+              "end": "2020-03-30T06:01:49.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12742071",
+              "display": "Sarkar, Shriniket"
+            }
+          },
+          {
+            "type": [
+              {
+                "coding": [
+                  {
+                    "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+                    "code": "681274",
+                    "display": "Database Coordinator",
+                    "userSelected": true
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                    "code": "PART",
+                    "display": "Participation",
+                    "userSelected": false
+                  }
+                ],
+                "text": "Database Coordinator"
+              }
+            ],
+            "period": {
+              "start": "2020-03-13T15:53:00.000Z",
+              "end": "2020-03-14T04:01:24.000Z"
+            },
+            "individual": {
+              "reference": "Practitioner/12724045",
+              "display": "Graham, Joshua"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-03-04T17:58:45.000Z",
+          "end": "2020-09-28T15:47:00.000Z"
+        },
+        "reasonCode": [
+          {
+            "text": "Cancer"
+          }
+        ],
+        "hospitalization": {
+          "admitSource": {
+            "coding": [
+              {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/2",
+                "code": "4326381",
+                "display": "Self (Non-HC Facility Source of Origin)",
+                "userSelected": true
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/admit-source",
+                "code": "other",
+                "display": "Other",
+                "userSelected": false
+              }
+            ],
+            "text": "Self (Non-HC Facility Source of Origin)"
+          },
+          "dischargeDisposition": {
+            "coding": [
+              {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/19",
+                "code": "638671",
+                "display": "Home or Self Care",
+                "userSelected": true
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/discharge-disposition",
+                "code": "home",
+                "display": "Home",
+                "userSelected": false
+              }
+            ],
+            "text": "Home or Self Care"
+          }
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "Location/165826097",
+              "display": "Model Cancer Center, MX CC, MedOncClin"
+            },
+            "status": "completed"
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/1024451",
+          "display": "Model Cancer Center"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

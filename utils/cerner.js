@@ -7,6 +7,16 @@ const getScope = (resource) => {
       return 'system/Patient.read';
     case 'MedicationDispense':
       return 'system/MedicationDispense.read';
+    case 'MedicationRequest':
+      return 'system/MedicationRequest.read';
+    case 'Encounter':
+      return 'system/Encounter.read';
+    case 'Organization':
+      return 'system/Organization.read';
+    case 'Location':
+      return 'system/Location.read';
+    case 'Practitioner':
+      return 'system/Practitioner.read';
     default:
       throw new Error('Invalid resource');
   }

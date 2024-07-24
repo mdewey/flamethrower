@@ -1,0 +1,11 @@
+{
+  "resourceType": "Bundle",
+  "id": "d16312fd-e1b8-4eb8-aa33-f0b5d19464ba",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Location?_id=2552105067"
+    }
+  ]
+}

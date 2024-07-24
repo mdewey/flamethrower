@@ -1,0 +1,87 @@
+{
+  "resourceType": "Bundle",
+  "id": "ed222bce-f023-4e1b-bdc4-a48aea64505a",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12724045"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12724045",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12724045",
+        "meta": {
+          "versionId": "80",
+          "lastUpdated": "2024-04-19T14:53:01.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Graham, Joshua</p><p><b>Identifiers</b>: PRSNLPRIMID: 93, EXTERNALID: 1111111111</p><p><b>Gender</b>: Male</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "93",
+            "period": {
+              "start": "2019-12-18T19:21:00.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "1111111111",
+            "period": {
+              "start": "2021-07-13T15:47:18.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Graham, Joshua",
+            "family": "Graham",
+            "given": [
+              "Joshua"
+            ],
+            "period": {
+              "start": "2019-12-18T19:21:00.000Z"
+            }
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "juice@testcerner.direct.com",
+            "use": "work"
+          }
+        ],
+        "gender": "male"
+      }
+    }
+  ]
+}
