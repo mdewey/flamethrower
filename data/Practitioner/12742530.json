@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "4c474891-537d-4a6d-82e1-5b69e61da59e",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742530"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742530",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742530",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-12-30T14:40:48.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Hong, Jennifer</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Hong, Jennifer",
+            "family": "Hong",
+            "given": [
+              "Jennifer"
+            ],
+            "period": {
+              "start": "2020-04-22T15:04:48.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

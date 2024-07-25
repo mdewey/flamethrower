@@ -1,0 +1,71 @@
+{
+  "resourceType": "Bundle",
+  "id": "f9a87525-075f-4d15-921c-b52ffa85559a",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12840391"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12840391",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12840391",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-19T22:15:41.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWCareFusionTwo, MD, Cardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 786</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "786",
+            "period": {
+              "start": "2023-05-19T22:15:26.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWCareFusionTwo, MD, Cardio",
+            "family": "PWCareFusionTwo",
+            "given": [
+              "Cardio"
+            ],
+            "prefix": [
+              "MD"
+            ],
+            "period": {
+              "start": "2023-05-19T22:15:26.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "1a1658f7-fdb1-4796-b414-f48d583ff3a7",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12732044"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12732044",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12732044",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-01-16T17:06:34.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWMedActionPlan, Physician - Primary Care</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWMedActionPlan, Physician - Primary Care",
+            "family": "PWMedActionPlan",
+            "given": [
+              "Physician - Primary Care"
+            ],
+            "period": {
+              "start": "2020-01-16T17:06:36.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

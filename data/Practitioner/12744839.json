@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "f28e297f-29ea-4adf-837c-20f069514760",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12744839"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12744839",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12744839",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2022-02-02T18:39:17.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWIntellicure, MDCardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 311</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "311",
+            "period": {
+              "start": "2020-10-08T18:40:24.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWIntellicure, MDCardio",
+            "family": "PWIntellicure",
+            "given": [
+              "MDCardio"
+            ],
+            "period": {
+              "start": "2020-10-08T18:40:24.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

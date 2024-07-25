@@ -1,0 +1,130 @@
+{
+  "resourceType": "Bundle",
+  "id": "63e6a751-6f6d-443d-ae06-89e7cf5c010e",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=2"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2",
+        "meta": {
+          "versionId": "29",
+          "lastUpdated": "2022-06-22T13:51:07.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: CERNER, CERNER CERNER</p><p><b>Identifiers</b>: SPI: systemcernerSPI, NPI: 123456789, EXTERNALID: SYSTEMCERNER, MESSAGING: 2</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PRN",
+                  "display": "Provider number"
+                }
+              ],
+              "text": "SureScripts Prescriber Index"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.2054",
+            "value": "systemcernerSPI",
+            "period": {
+              "start": "2018-03-22T05:00:00.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NPI",
+                  "display": "National provider identifier"
+                }
+              ],
+              "text": "National Provider Identifier"
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "123456789",
+            "period": {
+              "start": "2015-08-18T05:00:00.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "SYSTEMCERNER",
+            "period": {
+              "start": "2015-10-14T16:12:12.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified identifier"
+                }
+              ],
+              "text": "Messaging"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "2",
+            "period": {
+              "start": "2015-08-18T05:00:00.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "CERNER, CERNER CERNER",
+            "family": "CERNER",
+            "given": [
+              "CERNER",
+              "CERNER"
+            ],
+            "period": {
+              "start": "2017-01-24T16:10:04.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

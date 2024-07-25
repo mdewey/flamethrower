@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "62025117-d43b-4841-9073-eaefeaeb0e4f",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742666"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742666",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742666",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-08-04T04:07:27.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWReventics, MDCardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 175</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "175",
+            "period": {
+              "start": "2020-07-02T18:24:12.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWReventics, MDCardio",
+            "family": "PWReventics",
+            "given": [
+              "MDCardio"
+            ],
+            "period": {
+              "start": "2020-07-02T18:24:12.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "bca9aebb-ca12-4f04-9f2b-41463f0d4eef",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12762687"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12762687",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12762687",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2021-07-26T16:22:06.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWLabCorp, MD, Cardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 481</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "481",
+            "period": {
+              "start": "2021-07-26T03:16:38.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWLabCorp, MD, Cardio",
+            "family": "PWLabCorp, MD",
+            "given": [
+              "Cardio"
+            ],
+            "period": {
+              "start": "2021-07-26T03:16:38.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

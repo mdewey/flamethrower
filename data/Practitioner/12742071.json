@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "f19e5e81-b884-4aea-b7ca-812ce3415847",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742071"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742071",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742071",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2020-04-21T22:19:00.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Sarkar, Shriniket</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Sarkar, Shriniket",
+            "family": "Sarkar",
+            "given": [
+              "Shriniket"
+            ],
+            "period": {
+              "start": "2020-02-14T15:55:59.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

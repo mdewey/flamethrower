@@ -1,0 +1,116 @@
+{
+  "resourceType": "Bundle",
+  "id": "a059b514-08ba-4d1d-a7c9-7fdd309817f0",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12798938"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12798938",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12798938",
+        "meta": {
+          "versionId": "41",
+          "lastUpdated": "2024-04-04T20:22:43.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Barr Suffix, Title, Jesse</p><p><b>Identifiers</b>: NPI: 8345, PRSNLPRIMID: 637</p><p><b>Gender</b>: Male</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NPI",
+                  "display": "National provider identifier"
+                }
+              ],
+              "text": "National Provider Identifier"
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "8345",
+            "period": {
+              "start": "2023-08-23T17:49:20.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "637",
+            "period": {
+              "start": "2022-06-15T16:58:14.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Barr Suffix, Title, Jesse",
+            "family": "Barr",
+            "given": [
+              "Jesse"
+            ],
+            "prefix": [
+              "Title"
+            ],
+            "suffix": [
+              "Suffix"
+            ],
+            "period": {
+              "start": "2024-04-04T20:22:43.000Z"
+            }
+          }
+        ],
+        "gender": "male",
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/29600",
+                  "code": "677091",
+                  "display": "MD",
+                  "userSelected": true
+                },
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360%7C2.7",
+                  "code": "MD",
+                  "display": "Doctor of Medicine"
+                }
+              ],
+              "text": "MD"
+            },
+            "period": {
+              "start": "2024-04-01T05:00:00.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

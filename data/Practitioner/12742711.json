@@ -1,0 +1,86 @@
+{
+  "resourceType": "Bundle",
+  "id": "f488a637-7713-46e0-bbff-2e12d1c4dcb0",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742711"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742711",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742711",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-07-29T13:23:59.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWJuxly, PhysicianHosp</p><p><b>Identifiers</b>: PRSNLPRIMID: 192, NPI: 6789012345</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "192",
+            "period": {
+              "start": "2020-07-29T13:23:59.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NPI",
+                  "display": "National provider identifier"
+                }
+              ],
+              "text": "National Provider Identifier"
+            },
+            "system": "http://hl7.org/fhir/sid/us-npi",
+            "value": "6789012345",
+            "period": {
+              "start": "2020-09-16T02:31:52.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWJuxly, PhysicianHosp",
+            "family": "PWJuxly",
+            "given": [
+              "PhysicianHosp"
+            ],
+            "period": {
+              "start": "2020-07-29T13:23:59.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

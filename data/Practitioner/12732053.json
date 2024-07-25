@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "0e3b9e8b-5543-4c53-b24d-107c1b48ed72",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12732053"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12732053",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12732053",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-01-16T17:47:19.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWHealthDecision, Physician - Primary Care</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWHealthDecision, Physician - Primary Care",
+            "family": "PWHealthDecision",
+            "given": [
+              "Physician - Primary Care"
+            ],
+            "period": {
+              "start": "2020-01-16T17:47:19.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "resourceType": "Bundle",
+  "id": "344ec3ac-afd9-4cae-90c9-9545f2bfd394",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12718044"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12718044",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12718044",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2022-04-11T20:03:11.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Mckenzie, Nick</p><p><b>Identifiers</b>: PRSNLPRIMID: 88</p><p><b>Status</b>: Inactive</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "88",
+            "period": {
+              "start": "2019-08-27T16:50:04.000Z"
+            }
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Mckenzie, Nick",
+            "family": "Mckenzie",
+            "given": [
+              "Nick"
+            ],
+            "period": {
+              "start": "2019-08-27T16:50:03.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "use": "work",
+            "text": "12 Jump St\n#3\nKansas City, MO 64106\nUS",
+            "line": [
+              "12 Jump St",
+              "#3"
+            ],
+            "city": "Kansas City",
+            "state": "MO",
+            "postalCode": "64106",
+            "country": "US"
+          }
+        ]
+      }
+    }
+  ]
+}

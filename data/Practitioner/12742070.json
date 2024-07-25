@@ -1,0 +1,59 @@
+{
+  "resourceType": "Bundle",
+  "id": "33a0e670-db40-4317-bb8c-c8c5cc797175",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742070"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742070",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742070",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-08-26T07:21:21.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Kheang, Kol</p><p><b>Gender</b>: Male</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Kheang, Kol",
+            "family": "Kheang",
+            "given": [
+              "Kol"
+            ],
+            "period": {
+              "start": "2020-02-14T15:51:56.000Z"
+            }
+          }
+        ],
+        "gender": "male"
+      }
+    }
+  ]
+}

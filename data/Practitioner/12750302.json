@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "f6da5b27-0a60-4ed7-b244-99050cb46f22",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12750302"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12750302",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12750302",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-03-04T16:16:04.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWTwistle, MD, Cardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 406</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "406",
+            "period": {
+              "start": "2021-03-04T16:05:13.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWTwistle, MD, Cardio",
+            "family": "PWTwistle, MD",
+            "given": [
+              "Cardio"
+            ],
+            "period": {
+              "start": "2021-03-04T16:05:13.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "resourceType": "Bundle",
+  "id": "3b66bee9-f47a-46b0-bcba-1a4f13ea6de7",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12736052"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12736052",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12736052",
+        "meta": {
+          "versionId": "105",
+          "lastUpdated": "2022-04-11T20:03:00.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Scott, Justin</p><p><b>Identifiers</b>: EXTERNALID: 5555555555, PRSNLPRIMID: 99</p><p><b>Status</b>: Inactive</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "5555555555",
+            "period": {
+              "start": "2021-07-13T20:07:34.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "99",
+            "period": {
+              "start": "2020-01-21T16:54:38.000Z"
+            }
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Scott, Justin",
+            "family": "Scott",
+            "given": [
+              "Justin"
+            ],
+            "period": {
+              "start": "2020-01-21T16:54:38.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

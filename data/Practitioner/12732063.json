@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "e1e1075a-5729-4428-b440-09d8f361cad9",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12732063"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12732063",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12732063",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-01-16T19:19:32.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWHealthTensor, Physician - Hospitalist</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWHealthTensor, Physician - Hospitalist",
+            "family": "PWHealthTensor",
+            "given": [
+              "Physician - Hospitalist"
+            ],
+            "period": {
+              "start": "2020-01-16T19:19:32.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

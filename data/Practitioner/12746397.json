@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "36e75a27-bdc0-4a17-94dc-82fdc3538fd9",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12746397"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12746397",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12746397",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-11-10T18:39:19.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Pwuptodate, RN</p><p><b>Identifiers</b>: PRSNLPRIMID: 336</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "336",
+            "period": {
+              "start": "2020-11-10T18:39:19.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Pwuptodate, RN",
+            "family": "Pwuptodate",
+            "given": [
+              "RN"
+            ],
+            "period": {
+              "start": "2020-11-10T18:39:19.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

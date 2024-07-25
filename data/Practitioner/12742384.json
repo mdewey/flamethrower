@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "807e9975-30bf-4918-a84b-8985edd08a40",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742384"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742384",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742384",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-03-04T16:04:29.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWMEDACTIONPLAN, Physician - Hospitalist</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWMEDACTIONPLAN, Physician - Hospitalist",
+            "family": "PWMEDACTIONPLAN",
+            "given": [
+              "Physician - Hospitalist"
+            ],
+            "period": {
+              "start": "2020-03-04T15:59:06.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

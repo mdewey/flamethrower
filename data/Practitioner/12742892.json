@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "a2632d69-d980-49dd-9c3e-9dd872297836",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742892"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742892",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742892",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-08-10T21:11:19.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWFullMarks, RN</p><p><b>Identifiers</b>: PRSNLPRIMID: 223</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "223",
+            "period": {
+              "start": "2020-08-10T21:04:54.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWFullMarks, RN",
+            "family": "PWFullMarks",
+            "given": [
+              "RN"
+            ],
+            "period": {
+              "start": "2020-08-10T21:04:54.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

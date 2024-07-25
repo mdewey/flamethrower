@@ -1,0 +1,70 @@
+{
+  "resourceType": "Bundle",
+  "id": "d77cc826-74db-4e79-a97e-f55d5b27a689",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Location?_id=165826085"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Location/165826085",
+      "resource": {
+        "resourceType": "Location",
+        "id": "165826085",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2016-08-29T16:15:50Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Location</b></p><p><b>Name</b>: Model Cancer Center</p><p><b>Alias</b>: MX CC</p><p><b>Managing Organization</b>: Model Cancer Center</p><p><b>Part Of</b>: 165562541</p><p><b>Physical Type</b>: Building(s)</p><p><b>Status</b>: Active</p></div>"
+        },
+        "status": "active",
+        "name": "Model Cancer Center",
+        "alias": [
+          "MX CC"
+        ],
+        "mode": "instance",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/222",
+                "code": "778",
+                "display": "Building(s)",
+                "userSelected": true
+              }
+            ],
+            "text": "Building(s)"
+          }
+        ],
+        "physicalType": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/222",
+              "code": "778",
+              "display": "Building(s)",
+              "userSelected": true
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+              "code": "bu",
+              "display": "Building"
+            }
+          ],
+          "text": "Building(s)"
+        },
+        "managingOrganization": {
+          "reference": "Organization/1024451",
+          "display": "Model Cancer Center"
+        },
+        "partOf": {
+          "reference": "Location/165562541"
+        }
+      }
+    }
+  ]
+}

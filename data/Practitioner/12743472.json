@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "51803c73-a7a1-4493-b0ee-4058cc5b471b",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12743472"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12743472",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12743472",
+        "meta": {
+          "versionId": "8",
+          "lastUpdated": "2024-07-11T20:03:11.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Allen, Jodi</p><p><b>Identifiers</b>: PRSNLPRIMID: 262</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "262",
+            "period": {
+              "start": "2020-09-02T13:59:52.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Allen, Jodi",
+            "family": "Allen",
+            "given": [
+              "Jodi"
+            ],
+            "period": {
+              "start": "2020-09-02T13:59:52.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

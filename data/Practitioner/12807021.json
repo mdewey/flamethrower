@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "5aa28c47-900a-406f-9779-057e80ea5f04",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12807021"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12807021",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12807021",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2022-09-21T20:11:52.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWLungCancerScreening, Hospitalist</p><p><b>Identifiers</b>: PRSNLPRIMID: 680</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "680",
+            "period": {
+              "start": "2022-09-21T19:58:46.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWLungCancerScreening, Hospitalist",
+            "family": "PWLungCancerScreening",
+            "given": [
+              "Hospitalist"
+            ],
+            "period": {
+              "start": "2022-09-21T19:58:46.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

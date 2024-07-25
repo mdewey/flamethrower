@@ -1,0 +1,58 @@
+{
+  "resourceType": "Bundle",
+  "id": "bbdc3e08-d251-4550-8f7b-ae9f0b50f3b7",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12732051"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12732051",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12732051",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-01-16T17:39:21.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWHandtevy, Physician - Emergency Medicine</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "extension": [
+              {
+                "valueCode": "unknown",
+                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+              }
+            ]
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWHandtevy, Physician - Emergency Medicine",
+            "family": "PWHandtevy",
+            "given": [
+              "Physician - Emergency Medicine"
+            ],
+            "period": {
+              "start": "2020-01-16T17:39:21.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

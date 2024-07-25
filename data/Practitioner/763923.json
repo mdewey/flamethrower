@@ -1,0 +1,94 @@
+{
+  "resourceType": "Bundle",
+  "id": "2514b029-2015-43c0-9e50-08ed3f2a46b6",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=763923"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/763923",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "763923",
+        "meta": {
+          "versionId": "22",
+          "lastUpdated": "2016-04-28T15:02:01.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Cerner Test, Physician - Oncology Cerner</p><p><b>Identifiers</b>: EXTERNALID: CERNERPHYSONC, MESSAGING: 763923</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "CERNERPHYSONC",
+            "period": {
+              "start": "2016-04-28T15:02:01.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "U",
+                  "display": "Unspecified identifier"
+                }
+              ],
+              "text": "Messaging"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "763923",
+            "period": {
+              "start": "2015-08-18T05:00:00.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Cerner Test, Physician - Oncology Cerner",
+            "family": "Cerner Test",
+            "given": [
+              "Physician - Oncology",
+              "Cerner"
+            ],
+            "period": {
+              "start": "2016-04-28T15:02:01.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

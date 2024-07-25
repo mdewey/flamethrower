@@ -1,0 +1,107 @@
+{
+  "resourceType": "Bundle",
+  "id": "929cccc9-44e6-418a-8cc8-853a99320aa6",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12724064"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12724064",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12724064",
+        "meta": {
+          "versionId": "52",
+          "lastUpdated": "2022-08-01T18:44:17.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Spence, Open Platform IA, Stephen</p><p><b>Identifiers</b>: EXTERNALID: 12724063, PRSNLBADGE: 10050007005, PRSNLPRIMID: 94</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "system": "urn:oid:7.7.7.7.7.7",
+            "value": "12724063",
+            "period": {
+              "start": "2022-02-10T14:18:39.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Badge ID"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "10050007005",
+            "period": {
+              "start": "2020-07-30T14:58:27.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "94",
+            "period": {
+              "start": "2019-12-26T14:08:29.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Spence, Open Platform IA, Stephen",
+            "family": "Spence",
+            "given": [
+              "Stephen"
+            ],
+            "prefix": [
+              "Open Platform IA"
+            ],
+            "period": {
+              "start": "2019-12-26T14:08:28.000Z"
+            }
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "ss019968@testcerner.direct.com",
+            "use": "work"
+          }
+        ]
+      }
+    }
+  ]
+}

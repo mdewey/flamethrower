@@ -1,0 +1,79 @@
+{
+  "resourceType": "Bundle",
+  "id": "923cae56-d0a9-4ac5-a65f-d402cea8ada9",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12759637"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12759637",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12759637",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-06-21T20:16:13.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWBayesianHealth, MD, Cardio</p><p><b>Identifiers</b>: PRSNLPRIMID: 453, EXTERNALID: 1011111111</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "453",
+            "period": {
+              "start": "2021-06-21T19:54:49.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "1011111111",
+            "period": {
+              "start": "2021-07-13T20:10:29.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWBayesianHealth, MD, Cardio",
+            "family": "PWBayesianHealth, MD",
+            "given": [
+              "Cardio"
+            ],
+            "period": {
+              "start": "2021-06-21T19:54:49.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

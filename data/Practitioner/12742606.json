@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "86e4ff3a-9629-4ea4-9a39-c71176bc76ff",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742606"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742606",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742606",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-05-29T15:32:15.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PwOoda, Primary Care</p><p><b>Identifiers</b>: PRSNLPRIMID: 165</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "165",
+            "period": {
+              "start": "2020-05-29T15:27:02.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PwOoda, Primary Care",
+            "family": "PwOoda",
+            "given": [
+              "Primary Care"
+            ],
+            "period": {
+              "start": "2020-05-29T15:27:02.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

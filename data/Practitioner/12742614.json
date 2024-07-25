@@ -1,0 +1,79 @@
+{
+  "resourceType": "Bundle",
+  "id": "135d967d-2ae0-4dd0-a894-d5b6e98bc737",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742614"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742614",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742614",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2021-02-02T22:53:46.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWSUKI, MDCARDIO</p><p><b>Identifiers</b>: EXTERNALID: 7777777777, PRSNLPRIMID: 167</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "7777777777",
+            "period": {
+              "start": "2021-07-13T20:09:14.000Z"
+            }
+          },
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "167",
+            "period": {
+              "start": "2020-06-09T20:45:47.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWSUKI, MDCARDIO",
+            "family": "PWSUKI",
+            "given": [
+              "MDCARDIO"
+            ],
+            "period": {
+              "start": "2020-06-09T20:45:46.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

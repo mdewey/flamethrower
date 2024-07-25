@@ -48,8 +48,8 @@ Practitioner/4122622
     'Practitioner/12732044', 'Practitioner/12742500',
     'Practitioner/12742606', 'Practitioner/12742596',
     'Practitioner/744122',   'Practitioner/12742577'
-- 1 to Org/1024451
-- 1 to location/165826097
+- 1 to Organization/1024451
+- 1 to Location/165826097
 
 "reference": "Organization/1024451"
 

@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "b55e9dd7-d440-4534-ac80-4b04532b032d",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12784000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12784000",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12784000",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2022-03-14T14:00:07.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: McMillan, Erika</p><p><b>Identifiers</b>: PRSNLPRIMID: 607</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "607",
+            "period": {
+              "start": "2022-03-14T14:00:07.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "McMillan, Erika",
+            "family": "McMillan",
+            "given": [
+              "Erika"
+            ],
+            "period": {
+              "start": "2022-03-14T14:00:07.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

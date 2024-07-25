@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "2a29ec8b-28cf-4e9f-91fb-cc09836b0360",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12742500"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12742500",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12742500",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2020-06-08T14:38:23.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Ario, Scot</p><p><b>Identifiers</b>: PRSNLPRIMID: 123</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": true,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "123",
+            "period": {
+              "start": "2020-04-09T18:10:35.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Ario, Scot",
+            "family": "Ario",
+            "given": [
+              "Scot"
+            ],
+            "period": {
+              "start": "2020-04-09T18:10:35.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "id": "ffd456b1-228c-4a08-b146-620ba50ce8b8",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12743897"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12743897",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12743897",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-09-15T14:40:54.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Akines, Armani</p><p><b>Identifiers</b>: PRSNLPRIMID: 279</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "279",
+            "period": {
+              "start": "2020-09-15T14:40:54.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Akines, Armani",
+            "family": "Akines",
+            "given": [
+              "Armani"
+            ],
+            "period": {
+              "start": "2020-09-15T14:40:54.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

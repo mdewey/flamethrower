@@ -1,0 +1,69 @@
+{
+  "resourceType": "Bundle",
+  "id": "f48181ec-876e-476a-bff7-84a1d610fe08",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12724044"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12724044",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12724044",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2019-12-18T19:19:41.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: Hensiek, Ashley</p><p><b>Identifiers</b>: PRSNLPRIMID: 92</p><p><b>Gender</b>: Female</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "Personnel Primary Identifier"
+            },
+            "_system": {
+              "extension": [
+                {
+                  "valueCode": "unknown",
+                  "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+                }
+              ]
+            },
+            "value": "92",
+            "period": {
+              "start": "2019-12-18T19:19:41.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "Hensiek, Ashley",
+            "family": "Hensiek",
+            "given": [
+              "Ashley"
+            ],
+            "period": {
+              "start": "2019-12-18T19:19:41.000Z"
+            }
+          }
+        ],
+        "gender": "female"
+      }
+    }
+  ]
+}

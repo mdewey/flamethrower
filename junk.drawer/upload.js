@@ -2,8 +2,8 @@ import axios from 'axios';
 
 import https from 'node:https';
 
-import { openJsonFile, logger } from './utils/index.js';
-import { getAndSaveCernerResource } from './utils/cerner.js';
+import { openJsonFile, logger } from '../utils/index.js';
+import { getAndSaveCernerResource } from '../utils/cerner.js';
 
 const FHIR_MOCK_SERVER = 'https://mhv-intb-api.myhealth.va.gov/fhir-ignite';
 // const FHIR_MOCK_SERVER = 'http://localhost:3000/r4/123-123-123';

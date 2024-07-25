@@ -1,0 +1,61 @@
+{
+  "resourceType": "Bundle",
+  "id": "041a60a7-ead7-4b67-813f-f4723ebe0d5d",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner?_id=12732049"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/Practitioner/12732049",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "12732049",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-09-29T17:28:51.000Z"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Practitioner</b></p><p><b>Name</b>: PWUpToDate, Physician - Primary Care</p><p><b>Identifiers</b>: EXTERNALID: 3333333333</p><p><b>Status</b>: Active</p></div>"
+        },
+        "extension": [
+          {
+            "valueBoolean": false,
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/is-physician"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "text": "External Identifier"
+            },
+            "system": "urn:oid:2.16.840.1.113883.3.42.10001.100001.12",
+            "value": "3333333333",
+            "period": {
+              "start": "2021-07-13T20:06:39.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "text": "PWUpToDate, Physician - Primary Care",
+            "family": "PWUpToDate",
+            "given": [
+              "Physician - Primary Care"
+            ],
+            "period": {
+              "start": "2020-01-16T17:34:34.000Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
