@@ -1,0 +1,193 @@
+{
+  "resourceType": "Bundle",
+  "id": "c1e1f737-6417-497f-ae43-984fde64d66a",
+  "type": "searchset",
+  "total": 1,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson?_id=12742610-12724065"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://fhir-ehr.cerner.com/r4/ec2458f2-1e24-41c8-b71b-0e701af7583d/RelatedPerson/12742610-12724065",
+      "resource": {
+        "resourceType": "RelatedPerson",
+        "id": "12742610-12724065",
+        "meta": {
+          "versionId": "0",
+          "lastUpdated": "2020-06-01T13:34:32.000Z"
+        },
+        "text": {
+          "status": "extensions",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Related Person</b></p><p><b>Name</b>: PWDOSEME, SIX</p><p><b>DOB</b>: Jan  1, 2017</p><p><b>Gender</b>: female</p><p><b>Patient</b>: SMART, WILMA</p><p><b>Status</b>: Active</p><p><b>Relationship</b>: Family Member</p><p><b>Relationship</b>: Child</p><p><b>Relationship Level</b>: Patient</p></div>"
+        },
+        "extension": [
+          {
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/resource-types",
+                  "code": "Patient",
+                  "display": "Patient"
+                }
+              ],
+              "text": "Patient"
+            },
+            "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/relationship-level"
+          }
+        ],
+        "identifier": [
+          {
+            "id": "CI-490155340-1",
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4",
+                  "code": "2553236785",
+                  "display": "MIllennium Person Identifier",
+                  "userSelected": true
+                }
+              ],
+              "text": "MIllennium Person Identifier"
+            },
+            "value": "13571",
+            "period": {
+              "start": "2020-12-18T19:15:15.000Z"
+            }
+          }
+        ],
+        "active": true,
+        "patient": {
+          "reference": "Patient/12724065",
+          "display": "SMART, WILMA"
+        },
+        "relationship": [
+          {
+            "id": "CI-490057840-0",
+            "extension": [
+              {
+                "valuePeriod": {
+                  "start": "2020-06-01T13:34:32.000Z"
+                },
+                "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/period"
+              },
+              {
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/40",
+                      "code": "670847",
+                      "display": "Child",
+                      "userSelected": true
+                    },
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                      "code": "CHILD",
+                      "display": "child",
+                      "userSelected": false
+                    }
+                  ],
+                  "text": "Child"
+                },
+                "url": "https://fhir-ehr.cerner.com/r4/StructureDefinition/relation"
+              }
+            ],
+            "coding": [
+              {
+                "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/351",
+                "code": "1153",
+                "display": "Family Member",
+                "userSelected": true
+              },
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                "code": "FAMMEMB",
+                "display": "family member",
+                "userSelected": false
+              }
+            ],
+            "text": "Family Member"
+          }
+        ],
+        "name": [
+          {
+            "id": "CI-12742610-0",
+            "use": "official",
+            "text": "PWDOSEME, SIX",
+            "family": "PWDOSEME",
+            "given": [
+              "SIX"
+            ],
+            "period": {
+              "start": "2020-06-01T13:34:32.000Z"
+            }
+          }
+        ],
+        "telecom": [
+          {
+            "id": "CI-PH-29822813-0",
+            "extension": [
+              {
+                "valueUrl": "(786)554-6789",
+                "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
+              }
+            ],
+            "system": "phone",
+            "value": "7865546789",
+            "use": "home",
+            "period": {
+              "start": "2020-06-01T13:34:32.000Z"
+            }
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2017-01-01",
+        "address": [
+          {
+            "id": "CI-24326803-0",
+            "use": "home",
+            "text": "6412 Baltimore\nkansas city, MO 66014\nUS",
+            "line": [
+              "6412 Baltimore"
+            ],
+            "city": "kansas city",
+            "state": "MO",
+            "postalCode": "66014",
+            "country": "US",
+            "period": {
+              "start": "2020-06-01T13:28:57.000Z"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/36",
+                  "code": "151",
+                  "display": "English",
+                  "userSelected": true
+                },
+                {
+                  "system": "urn:ietf:bcp:47",
+                  "code": "en",
+                  "display": "English",
+                  "userSelected": false
+                }
+              ],
+              "text": "English"
+            },
+            "preferred": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

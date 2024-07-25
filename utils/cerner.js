@@ -17,16 +17,19 @@ const getScope = (resource) => {
       return 'system/Location.read';
     case 'Practitioner':
       return 'system/Practitioner.read';
+    case 'RelatedPerson':
+      return 'system/RelatedPerson.read';
     default:
+      logger.error({ resource }, 'Invalid resource');
       throw new Error('Invalid resource');
   }
 };
 
 const getToken = async ({ resource }) => {
-  logger.info('getting token');
+  const { CERNER_CLIENT_ID, CERNER_SECRET } = process.env;
   const myHeaders = new Headers();
   myHeaders.append('Accept', 'application/json');
-  myHeaders.append('Authorization', `Basic ${Buffer.from('df202887-57fe-4767-a2c2-4e821c4fe412:Su82fRIH-aPlAV5va6IYqYqErYKP8bJ3').toString('base64')}`);
+  myHeaders.append('Authorization', `Basic ${Buffer.from(`${CERNER_CLIENT_ID}:${CERNER_SECRET}`).toString('base64')}`);
   myHeaders.append('Cache-Control', 'no-cache');
   myHeaders.append('Content-Type', 'application/x-www-form-urlencoded');
 
@@ -65,9 +68,9 @@ const getResource = async ({ token, resource, id }) => {
 const getAndSaveCernerResource = async ({ resource, id }) => {
   logger.info({ resource, id }, 'starting the resource saving');
   const token = await getToken({ resource });
-  logger.info({ token }, 'got token');
+  logger.info('got token');
   const data = await getResource({ token, resource, id });
-  logger.info({ data }, 'saving data');
+  logger.info(`saving data: ${resource}/${id}.json`);
   saveJsonFile({ folder: resource, fileName: `${id}.json`, data });
 };
 

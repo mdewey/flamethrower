@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "7b717e88-e7f0-4784-bfdb-f0cd1c9db0f3",
+  "id": "22d96462-3286-45ff-adab-6bee7a9fd96e",
   "type": "searchset",
   "total": 1,
   "link": [
@@ -792,47 +792,8 @@
             "name": {
               "id": "CI-12742610-0",
               "use": "official",
-              "text": "PWDOSEME, SIX",
-              "family": "PWDOSEME",
-              "given": [
-                "SIX"
-              ],
-              "period": {
-                "start": "2020-06-01T13:34:32.000Z"
-              }
+              "text": "PWDOSEME, SIX"
             },
-            "telecom": [
-              {
-                "extension": [
-                  {
-                    "valueUrl": "(786)554-6789",
-                    "url": "http://hl7.org/fhir/StructureDefinition/iso21090-TEL-address"
-                  }
-                ],
-                "system": "phone",
-                "value": "7865546789",
-                "use": "home",
-                "rank": 1,
-                "period": {
-                  "start": "2020-06-01T13:34:32.000Z"
-                }
-              }
-            ],
-            "address": {
-              "use": "home",
-              "text": "6412 Baltimore\nkansas city, MO 66014\nUS",
-              "line": [
-                "6412 Baltimore"
-              ],
-              "city": "kansas city",
-              "state": "MO",
-              "postalCode": "66014",
-              "country": "US",
-              "period": {
-                "start": "2020-06-01T13:28:57.000Z"
-              }
-            },
-            "gender": "female",
             "period": {
               "start": "2020-06-01T13:34:32.000Z"
             }
@@ -875,6 +836,14 @@
             "id": "CI-490016962-3",
             "reference": "Practitioner/4122622",
             "display": "Cerner Test, Physician - Hospitalist Cerner"
+          }
+        ],
+        "link": [
+          {
+            "other": {
+              "reference": "RelatedPerson/12742610-12724065"
+            },
+            "type": "refer"
           }
         ]
       },
