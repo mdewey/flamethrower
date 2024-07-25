@@ -64,3 +64,9 @@ Practitioner/4122622
 Patient/12724065
 Encounter/97953483
 Practitioner/2
+
+# I need to create
+
+In order to create a Medical Dispense, I need to create
+
+- Create a pracitioner
