@@ -10,7 +10,8 @@
     "ecmaVersion": "latest"
   },
   "rules": {
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    
   },
   "globals": {
     "BASE_URL": "readonly"

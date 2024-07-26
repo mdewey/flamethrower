@@ -13,9 +13,9 @@ const logger = pino({
 
 const { dirname } = import.meta;
 
-const openJsonFile = ({ folder, fileName }) => {
+const openJsonFile = ({ folder, fileName, dataFolder = 'data' }) => {
   const pathToOpen = path
-    .join(dirname.replace('\\utils', ''), `/data/${folder}/${fileName}`);
+    .join(dirname.replace('\\utils', ''), `/${dataFolder}/${folder}/${fileName}`);
   // check if file exists
   logger.info({ path: pathToOpen, dirname }, 'opening file');
   const json = fs.readJSONSync(pathToOpen);

@@ -8,6 +8,10 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Medication Dispense</b></p><p><b>Patient</b>: SMART, WILMA</p><p><b>Medication</b>: acetaminophen 650 mg Supp</p><p><b>Authorizing Prescription</b>: MedicationRequest/311877819</p><p><b>Status</b>: In Progress</p><p><b>Performers</b>: Graham, Joshua, Organization/1024451</p><p><b>Type</b>: FIRST_FILL_COMPLETE</p><p><b>Dispense Quantity</b>: 30.0 EA</p><p><b>Dosage Instructions</b>: 1XD</p></div>"
   },
+  "subject": {
+    "reference": "Patient/update-me-dynamically",
+    "display": "SMART, WILMA"
+  },
   "status": "in-progress",
   "category": {
     "coding": [
