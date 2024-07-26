@@ -68,7 +68,8 @@ const MedicationDispenseFactory = async ({
   resourceId,
   patient,
   organization,
-  practitioner
+  practitioner,
+  location
 })=> {
   const { resource, id } = splitResourceId(resourceId);
   const data = openJsonFile({
@@ -87,6 +88,8 @@ const MedicationDispenseFactory = async ({
       "reference": practitioner,
     }
   })
+  data.location.reference = location;
+
   return data;
 }
 
@@ -119,14 +122,18 @@ const upload = async () => {
   saveJsonToFolder({json:practitioner})
   const practitionerReference = `Practitioner/${practitioner.id}`
 
-
+  // add Location
+  const location = await uploadFileToFhirServer('Location/sample');
+  saveJsonToFolder({json:location});
+  const locationReference = `Location/${location.id}`
 
   // set the reference on the medication dispense
   const  medsDispense = await MedicationDispenseFactory({
     resourceId:'MedicationDispense/sample',
     patient:patientReference,
     organization: orgReference,
-    practitioner:practitionerReference
+    practitioner:practitionerReference,
+    location:locationReference
   });
   logger.info({medsDispense});
   // // upload the medications dispense
