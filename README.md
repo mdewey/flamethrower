@@ -69,9 +69,9 @@ Practitioner/2
 
 To recreate the meds dis I need to create and save the ids of a
 
-"reference": "Patient/12724065",
-"reference": "Encounter/97953483"
-"reference": "Practitioner/12724045",
-"reference": "Organization/1024451"
-"reference": "Location/2552105067",
-"reference": "MedicationRequest/311877819"
+- [x]"reference": "Patient/12724065",
+- [ ]"reference": "Encounter/97953483"
+- [ ]"reference": "Practitioner/12724045",
+- [x]"reference": "Organization/1024451"
+- [ ]"reference": "Location/2552105067",
+- [ ]"reference": "MedicationRequest/311877819"

@@ -64,7 +64,8 @@ const uploadFileToFhirServer = async (resourceId) => {
 
 const MedicationDispenseFactory = async ({
   resourceId,
-  patient
+  patient,
+  organization
 })=> {
   const { resource, id } = splitResourceId(resourceId);
   const data = openJsonFile({
@@ -73,6 +74,13 @@ const MedicationDispenseFactory = async ({
     fileName: `${id}.json`,
   });
   data.subject.reference = patient
+  data.performer.push(
+    {
+      "actor": {
+        "reference": organization
+      }
+    }
+  )
   return data;
 }
 
@@ -91,18 +99,29 @@ const upload = async () => {
   // upload the patient
   const patient = await uploadFileToFhirServer('Patient/wilma');
   saveJsonToFolder({json:patient})
-
   // get the patient id
   const patientReference = `Patient/${patient.id}`;
+
+
+  // upload organization
+  const organization = await uploadFileToFhirServer('Organization/sample');
+  saveJsonToFolder( {json: organization});
+  const orgReference = `Organization/${organization.id}`
+
+
+
+
   // set the reference on the medication dispense
   const  medsDispense = await MedicationDispenseFactory({
     resourceId:'MedicationDispense/sample',
-    patient:patientReference
+    patient:patientReference,
+    organization: orgReference
   });
   logger.info({medsDispense});
-  // upload the medications dispense
+  // // upload the medications dispense
   const final = await uploadToFHIRServer(medsDispense);
   saveJsonToFolder({json:final})
+  logger.info(`created meds : ${final.id}`);
 };
 
 export {
