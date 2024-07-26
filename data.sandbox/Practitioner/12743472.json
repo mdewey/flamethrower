@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Allen, Jodi",
             "family": "Allen",
-            "given": [
-              "Jodi"
-            ],
+            "given": ["Jodi"],
             "period": {
               "start": "2020-09-02T13:59:52.000Z"
             }

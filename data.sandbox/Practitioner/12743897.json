@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Akines, Armani",
             "family": "Akines",
-            "given": [
-              "Armani"
-            ],
+            "given": ["Armani"],
             "period": {
               "start": "2020-09-15T14:40:54.000Z"
             }

@@ -79,10 +79,7 @@
             "use": "usual",
             "text": "Cerner Test, Physician - Oncology Cerner",
             "family": "Cerner Test",
-            "given": [
-              "Physician - Oncology",
-              "Cerner"
-            ],
+            "given": ["Physician - Oncology", "Cerner"],
             "period": {
               "start": "2016-04-28T15:02:01.000Z"
             }

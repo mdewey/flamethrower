@@ -29,7 +29,12 @@ const getToken = async ({ resource }) => {
   const { CERNER_CLIENT_ID, CERNER_SECRET } = process.env;
   const myHeaders = new Headers();
   myHeaders.append('Accept', 'application/json');
-  myHeaders.append('Authorization', `Basic ${Buffer.from(`${CERNER_CLIENT_ID}:${CERNER_SECRET}`).toString('base64')}`);
+  myHeaders.append(
+    'Authorization',
+    `Basic ${Buffer.from(`${CERNER_CLIENT_ID}:${CERNER_SECRET}`).toString(
+      'base64',
+    )}`,
+  );
   myHeaders.append('Cache-Control', 'no-cache');
   myHeaders.append('Content-Type', 'application/x-www-form-urlencoded');
 
@@ -46,7 +51,10 @@ const getToken = async ({ resource }) => {
 
   logger.info({ requestOptions }, 'fetching token');
 
-  const response = await fetch('https://authorization.cerner.com/tenants/ec2458f2-1e24-41c8-b71b-0e701af7583d/protocols/oauth2/profiles/smart-v1/token', requestOptions);
+  const response = await fetch(
+    'https://authorization.cerner.com/tenants/ec2458f2-1e24-41c8-b71b-0e701af7583d/protocols/oauth2/profiles/smart-v1/token',
+    requestOptions,
+  );
   const json = await response.json();
   return json;
 };

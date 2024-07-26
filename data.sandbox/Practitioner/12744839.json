@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWIntellicure, MDCardio",
             "family": "PWIntellicure",
-            "given": [
-              "MDCardio"
-            ],
+            "given": ["MDCardio"],
             "period": {
               "start": "2020-10-08T18:40:24.000Z"
             }

@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWReventics, MDCardio",
             "family": "PWReventics",
-            "given": [
-              "MDCardio"
-            ],
+            "given": ["MDCardio"],
             "period": {
               "start": "2020-07-02T18:24:12.000Z"
             }

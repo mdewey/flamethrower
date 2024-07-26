@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWHealthDecision, Physician - Primary Care",
             "family": "PWHealthDecision",
-            "given": [
-              "Physician - Primary Care"
-            ],
+            "given": ["Physician - Primary Care"],
             "period": {
               "start": "2020-01-16T17:47:19.000Z"
             }

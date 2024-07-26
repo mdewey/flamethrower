@@ -47,9 +47,7 @@
             "use": "usual",
             "text": "PWUpToDate, Physician - Primary Care",
             "family": "PWUpToDate",
-            "given": [
-              "Physician - Primary Care"
-            ],
+            "given": ["Physician - Primary Care"],
             "period": {
               "start": "2020-01-16T17:34:34.000Z"
             }

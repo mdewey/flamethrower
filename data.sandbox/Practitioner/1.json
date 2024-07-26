@@ -54,10 +54,7 @@
             "use": "usual",
             "text": "SYSTEM, SYSTEM Cerner",
             "family": "SYSTEM",
-            "given": [
-              "SYSTEM",
-              "Cerner"
-            ],
+            "given": ["SYSTEM", "Cerner"],
             "period": {
               "start": "2015-08-19T17:14:54.000Z"
             }

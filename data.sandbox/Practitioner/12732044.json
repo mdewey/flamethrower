@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWMedActionPlan, Physician - Primary Care",
             "family": "PWMedActionPlan",
-            "given": [
-              "Physician - Primary Care"
-            ],
+            "given": ["Physician - Primary Care"],
             "period": {
               "start": "2020-01-16T17:06:36.000Z"
             }

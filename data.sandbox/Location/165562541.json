@@ -24,9 +24,7 @@
         },
         "status": "active",
         "name": "Model Cancer Center",
-        "alias": [
-          "MX CC"
-        ],
+        "alias": ["MX CC"],
         "mode": "instance",
         "type": [
           {

@@ -24,9 +24,7 @@
         },
         "status": "active",
         "name": "Medical Oncology Clinic",
-        "alias": [
-          "MedOncClin"
-        ],
+        "alias": ["MedOncClin"],
         "mode": "instance",
         "type": [
           {

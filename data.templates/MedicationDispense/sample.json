@@ -12,18 +12,14 @@
     "reference": "Patient/update-me-dynamically",
     "display": "SMART, WILMA"
   },
-  "performer": [
-    
-  ],
-  "location":{
+  "performer": [],
+  "location": {
     "reference": "Location/update-me-dynamically"
   },
   "context": {
     "reference": "Encounter/update-me-dynamically"
   },
-  "authorizingPrescription": [
- 
-  ],
+  "authorizingPrescription": [],
   "status": "in-progress",
   "category": {
     "coding": [
@@ -54,8 +50,7 @@
     ],
     "text": "acetaminophen 650 mg Supp"
   },
-  
-  
+
   "type": {
     "coding": [
       {

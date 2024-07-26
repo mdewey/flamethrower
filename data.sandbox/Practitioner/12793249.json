@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWCareFusion, MD, Cardio",
             "family": "PWCareFusion, MD",
-            "given": [
-              "Cardio"
-            ],
+            "given": ["Cardio"],
             "period": {
               "start": "2022-05-10T16:15:19.000Z"
             }

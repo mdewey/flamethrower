@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWHealthTensor, Physician - Hospitalist",
             "family": "PWHealthTensor",
-            "given": [
-              "Physician - Hospitalist"
-            ],
+            "given": ["Physician - Hospitalist"],
             "period": {
               "start": "2020-01-16T19:19:32.000Z"
             }

@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Hanson, Nick",
             "family": "Hanson",
-            "given": [
-              "Nick"
-            ],
+            "given": ["Nick"],
             "period": {
               "start": "2023-01-12T16:45:37.000Z"
             }

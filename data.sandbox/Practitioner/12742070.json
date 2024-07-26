@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "Kheang, Kol",
             "family": "Kheang",
-            "given": [
-              "Kol"
-            ],
+            "given": ["Kol"],
             "period": {
               "start": "2020-02-14T15:51:56.000Z"
             }

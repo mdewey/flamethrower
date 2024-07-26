@@ -65,9 +65,7 @@
             "use": "usual",
             "text": "PWDentrix, Dentalprofessional",
             "family": "PWDentrix",
-            "given": [
-              "Dentalprofessional"
-            ],
+            "given": ["Dentalprofessional"],
             "period": {
               "start": "2020-10-06T18:52:18.000Z"
             }

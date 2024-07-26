@@ -65,9 +65,7 @@
             "use": "usual",
             "text": "Portal, Portal",
             "family": "Portal",
-            "given": [
-              "Portal"
-            ],
+            "given": ["Portal"],
             "period": {
               "start": "2020-02-04T21:44:15.000Z"
             }

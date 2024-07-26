@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Hensiek, Ashley",
             "family": "Hensiek",
-            "given": [
-              "Ashley"
-            ],
+            "given": ["Ashley"],
             "period": {
               "start": "2019-12-18T19:19:41.000Z"
             }

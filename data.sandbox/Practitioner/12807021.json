@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWLungCancerScreening, Hospitalist",
             "family": "PWLungCancerScreening",
-            "given": [
-              "Hospitalist"
-            ],
+            "given": ["Hospitalist"],
             "period": {
               "start": "2022-09-21T19:58:46.000Z"
             }

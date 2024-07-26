@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWASHA, MD, Cardio",
             "family": "PWASHA, MD",
-            "given": [
-              "Cardio"
-            ],
+            "given": ["Cardio"],
             "period": {
               "start": "2021-01-05T20:35:27.000Z"
             }

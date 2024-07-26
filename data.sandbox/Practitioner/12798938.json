@@ -72,15 +72,9 @@
             "use": "usual",
             "text": "Barr Suffix, Title, Jesse",
             "family": "Barr",
-            "given": [
-              "Jesse"
-            ],
-            "prefix": [
-              "Title"
-            ],
-            "suffix": [
-              "Suffix"
-            ],
+            "given": ["Jesse"],
+            "prefix": ["Title"],
+            "suffix": ["Suffix"],
             "period": {
               "start": "2024-04-04T20:22:43.000Z"
             }

@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Mckenzie, Nick",
             "family": "Mckenzie",
-            "given": [
-              "Nick"
-            ],
+            "given": ["Nick"],
             "period": {
               "start": "2019-08-27T16:50:03.000Z"
             }
@@ -66,10 +64,7 @@
           {
             "use": "work",
             "text": "12 Jump St\n#3\nKansas City, MO 64106\nUS",
-            "line": [
-              "12 Jump St",
-              "#3"
-            ],
+            "line": ["12 Jump St", "#3"],
             "city": "Kansas City",
             "state": "MO",
             "postalCode": "64106",

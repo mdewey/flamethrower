@@ -54,10 +54,7 @@
             "use": "usual",
             "text": "Cerner Test, HIM - Specialist Cerner",
             "family": "Cerner Test",
-            "given": [
-              "HIM - Specialist",
-              "Cerner"
-            ],
+            "given": ["HIM - Specialist", "Cerner"],
             "period": {
               "start": "2016-04-28T15:01:50.000Z"
             }

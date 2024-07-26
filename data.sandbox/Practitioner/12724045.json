@@ -65,9 +65,7 @@
             "use": "usual",
             "text": "Graham, Joshua",
             "family": "Graham",
-            "given": [
-              "Joshua"
-            ],
+            "given": ["Joshua"],
             "period": {
               "start": "2019-12-18T19:21:00.000Z"
             }

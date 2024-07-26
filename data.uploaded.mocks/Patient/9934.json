@@ -377,9 +377,7 @@
       "use": "official",
       "text": "SMART, WILMA",
       "family": "SMART",
-      "given": [
-        "WILMA"
-      ],
+      "given": ["WILMA"],
       "period": {
         "start": "2019-12-26T15:09:19.000Z"
       }
@@ -389,9 +387,7 @@
       "use": "old",
       "text": "Smart, Wilma",
       "family": "Smart",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-05-08T10:55:53.000Z",
         "end": "2024-06-26T13:48:17.000Z"
@@ -402,9 +398,7 @@
       "use": "old",
       "text": "Smart, Wilma",
       "family": "Smart",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-05-08T01:47:39.000Z",
         "end": "2023-05-08T10:55:53.000Z"
@@ -415,9 +409,7 @@
       "use": "old",
       "text": "Wolf-11, Wilma",
       "family": "Wolf-11",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-05-05T11:02:05.000Z",
         "end": "2023-05-08T01:47:39.000Z"
@@ -428,9 +420,7 @@
       "use": "old",
       "text": "John, Wilma",
       "family": "John",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-04-21T14:27:01.000Z",
         "end": "2023-05-05T11:02:05.000Z"
@@ -441,9 +431,7 @@
       "use": "old",
       "text": "Ali, Wilma",
       "family": "Ali",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-04-21T14:23:00.000Z",
         "end": "2023-04-21T14:27:01.000Z"
@@ -454,9 +442,7 @@
       "use": "old",
       "text": "Asad, Wilma",
       "family": "Asad",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-04-21T14:22:21.000Z",
         "end": "2023-04-21T14:23:00.000Z"
@@ -467,9 +453,7 @@
       "use": "old",
       "text": "xWave, Wilma",
       "family": "xWave",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2023-04-21T13:16:53.000Z",
         "end": "2023-04-21T14:22:21.000Z"
@@ -480,9 +464,7 @@
       "use": "old",
       "text": "Smart, Wilma",
       "family": "Smart",
-      "given": [
-        "Wilma"
-      ],
+      "given": ["Wilma"],
       "period": {
         "start": "2022-10-19T18:43:28.000Z",
         "end": "2023-04-21T13:16:53.000Z"
@@ -493,9 +475,7 @@
       "use": "old",
       "text": "SMART, WILMA",
       "family": "SMART",
-      "given": [
-        "WILMA"
-      ],
+      "given": ["WILMA"],
       "period": {
         "start": "2020-10-05T21:02:53.000Z",
         "end": "2022-10-19T18:43:28.000Z"
@@ -506,9 +486,7 @@
       "use": "old",
       "text": "TestLN, TestFN",
       "family": "TestLN",
-      "given": [
-        "TestFN"
-      ],
+      "given": ["TestFN"],
       "period": {
         "start": "2020-10-02T11:08:12.000Z",
         "end": "2020-10-05T21:02:53.000Z"
@@ -519,9 +497,7 @@
       "use": "old",
       "text": "TestLN1, TestFN1",
       "family": "TestLN1",
-      "given": [
-        "TestFN1"
-      ],
+      "given": ["TestFN1"],
       "period": {
         "start": "2020-10-02T09:20:49.000Z",
         "end": "2020-10-02T11:08:12.000Z"
@@ -532,9 +508,7 @@
       "use": "old",
       "text": "SMART, WILMA",
       "family": "SMART",
-      "given": [
-        "WILMA"
-      ],
+      "given": ["WILMA"],
       "period": {
         "start": "2020-09-28T15:49:13.000Z",
         "end": "2020-10-02T09:20:49.000Z"
@@ -545,9 +519,7 @@
       "use": "old",
       "text": "TestLN1, TestFN1",
       "family": "TestLN1",
-      "given": [
-        "TestFN1"
-      ],
+      "given": ["TestFN1"],
       "period": {
         "start": "2020-09-22T15:24:04.000Z",
         "end": "2020-09-28T15:49:13.000Z"
@@ -558,9 +530,7 @@
       "use": "old",
       "text": "SMART, WILMA",
       "family": "SMART",
-      "given": [
-        "WILMA"
-      ],
+      "given": ["WILMA"],
       "period": {
         "start": "2019-12-26T15:09:19.000Z",
         "end": "2020-09-22T15:24:04.000Z"
@@ -732,9 +702,7 @@
       "id": "CI-24526487-0",
       "use": "home",
       "text": "128 ORCHARDSTREET\nMONTPELIER, VA 64116\nUS",
-      "line": [
-        "128 ORCHARDSTREET"
-      ],
+      "line": ["128 ORCHARDSTREET"],
       "city": "MONTPELIER",
       "state": "VA",
       "postalCode": "64116",

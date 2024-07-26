@@ -54,10 +54,7 @@
             "use": "usual",
             "text": "Cerner Test, Nurse Cerner",
             "family": "Cerner Test",
-            "given": [
-              "Nurse",
-              "Cerner"
-            ],
+            "given": ["Nurse", "Cerner"],
             "period": {
               "start": "2016-04-28T15:02:06.000Z"
             }

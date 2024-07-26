@@ -85,9 +85,7 @@
   "address": [
     {
       "use": "work",
-      "line": [
-        "7654 N 75th"
-      ],
+      "line": ["7654 N 75th"],
       "city": "Kansas City",
       "state": "MO",
       "postalCode": "64116",
@@ -95,27 +93,21 @@
     },
     {
       "use": "billing",
-      "line": [
-        "7654 N 75th"
-      ],
+      "line": ["7654 N 75th"],
       "city": "Kansas City",
       "state": "MO",
       "postalCode": "64116",
       "country": "US"
     },
     {
-      "line": [
-        "7654 N 75th"
-      ],
+      "line": ["7654 N 75th"],
       "city": "Kansas City",
       "state": "MO",
       "postalCode": "64116",
       "country": "US"
     },
     {
-      "line": [
-        "7654 N 75th"
-      ],
+      "line": ["7654 N 75th"],
       "city": "Kansas City",
       "state": "MO",
       "postalCode": "64116",
@@ -123,9 +115,7 @@
     },
     {
       "use": "billing",
-      "line": [
-        "7654 N 75th"
-      ],
+      "line": ["7654 N 75th"],
       "city": "Kansas City",
       "state": "MO",
       "postalCode": "64116",

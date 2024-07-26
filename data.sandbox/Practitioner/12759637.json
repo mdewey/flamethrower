@@ -65,9 +65,7 @@
             "use": "usual",
             "text": "PWBayesianHealth, MD, Cardio",
             "family": "PWBayesianHealth, MD",
-            "given": [
-              "Cardio"
-            ],
+            "given": ["Cardio"],
             "period": {
               "start": "2021-06-21T19:54:49.000Z"
             }

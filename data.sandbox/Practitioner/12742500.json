@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "Ario, Scot",
             "family": "Ario",
-            "given": [
-              "Scot"
-            ],
+            "given": ["Scot"],
             "period": {
               "start": "2020-04-09T18:10:35.000Z"
             }

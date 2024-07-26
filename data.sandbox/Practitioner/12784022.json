@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWAMWELL, HOSPITAL",
             "family": "PWAMWELL",
-            "given": [
-              "HOSPITAL"
-            ],
+            "given": ["HOSPITAL"],
             "period": {
               "start": "2022-03-14T18:29:30.000Z"
             }

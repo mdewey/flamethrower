@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "devexp, devexp",
             "family": "devexp",
-            "given": [
-              "devexp"
-            ],
+            "given": ["devexp"],
             "period": {
               "start": "2020-03-30T20:16:44.000Z"
             }

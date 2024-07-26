@@ -118,9 +118,7 @@
             "use": "official",
             "text": "PWDOSEME, SIX",
             "family": "PWDOSEME",
-            "given": [
-              "SIX"
-            ],
+            "given": ["SIX"],
             "period": {
               "start": "2020-06-01T13:34:32.000Z"
             }
@@ -150,9 +148,7 @@
             "id": "CI-24326803-0",
             "use": "home",
             "text": "6412 Baltimore\nkansas city, MO 66014\nUS",
-            "line": [
-              "6412 Baltimore"
-            ],
+            "line": ["6412 Baltimore"],
             "city": "kansas city",
             "state": "MO",
             "postalCode": "66014",

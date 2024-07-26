@@ -72,9 +72,7 @@
             "use": "usual",
             "text": "PWJuxly, PhysicianHosp",
             "family": "PWJuxly",
-            "given": [
-              "PhysicianHosp"
-            ],
+            "given": ["PhysicianHosp"],
             "period": {
               "start": "2020-07-29T13:23:59.000Z"
             }

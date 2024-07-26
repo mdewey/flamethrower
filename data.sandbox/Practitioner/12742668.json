@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PwHealthEndeavors, MDCardio",
             "family": "PwHealthEndeavors",
-            "given": [
-              "MDCardio"
-            ],
+            "given": ["MDCardio"],
             "period": {
               "start": "2020-07-06T13:03:53.000Z"
             }

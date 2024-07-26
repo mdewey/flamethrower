@@ -83,12 +83,8 @@
             "use": "usual",
             "text": "Spence, Open Platform IA, Stephen",
             "family": "Spence",
-            "given": [
-              "Stephen"
-            ],
-            "prefix": [
-              "Open Platform IA"
-            ],
+            "given": ["Stephen"],
+            "prefix": ["Open Platform IA"],
             "period": {
               "start": "2019-12-26T14:08:28.000Z"
             }

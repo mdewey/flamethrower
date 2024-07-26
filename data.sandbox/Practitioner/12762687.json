@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWLabCorp, MD, Cardio",
             "family": "PWLabCorp, MD",
-            "given": [
-              "Cardio"
-            ],
+            "given": ["Cardio"],
             "period": {
               "start": "2021-07-26T03:16:38.000Z"
             }

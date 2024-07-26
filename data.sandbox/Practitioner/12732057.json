@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWSeamlessMD, Physician - Hospitalist",
             "family": "PWSeamlessMD",
-            "given": [
-              "Physician - Hospitalist"
-            ],
+            "given": ["Physician - Hospitalist"],
             "period": {
               "start": "2020-01-16T19:06:42.000Z"
             }

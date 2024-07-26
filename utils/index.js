@@ -14,8 +14,10 @@ const logger = pino({
 const { dirname } = import.meta;
 
 const openJsonFile = ({ folder, fileName, dataFolder = 'data' }) => {
-  const pathToOpen = path
-    .join(dirname.replace('\\utils', ''), `/${dataFolder}/${folder}/${fileName}`);
+  const pathToOpen = path.join(
+    dirname.replace('\\utils', ''),
+    `/${dataFolder}/${folder}/${fileName}`,
+  );
   // check if file exists
   logger.info({ path: pathToOpen, dirname }, 'opening file');
   const json = fs.readJSONSync(pathToOpen);
@@ -23,15 +25,13 @@ const openJsonFile = ({ folder, fileName, dataFolder = 'data' }) => {
 };
 
 const saveJsonFile = ({ folder, fileName, data, dataFolder = 'data' }) => {
-  const pathToSave = path
-    .join(dirname.replace('\\utils', ''), `/${dataFolder}/${folder}/${fileName}`);
+  const pathToSave = path.join(
+    dirname.replace('\\utils', ''),
+    `/${dataFolder}/${folder}/${fileName}`,
+  );
   // check if file exists
   logger.info({ path: pathToSave, dirname }, 'saving file');
   fs.outputJSONSync(pathToSave, data, { spaces: 2 });
 };
 
-export {
-  saveJsonFile,
-  openJsonFile,
-  logger,
-};
+export { saveJsonFile, openJsonFile, logger };

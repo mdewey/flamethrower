@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "CART, PW",
             "family": "CART",
-            "given": [
-              "PW"
-            ],
+            "given": ["PW"],
             "period": {
               "start": "2020-08-26T18:44:05.000Z"
             }

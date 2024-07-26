@@ -65,9 +65,7 @@
             "use": "usual",
             "text": "PWSUKI, MDCARDIO",
             "family": "PWSUKI",
-            "given": [
-              "MDCARDIO"
-            ],
+            "given": ["MDCARDIO"],
             "period": {
               "start": "2020-06-09T20:45:46.000Z"
             }

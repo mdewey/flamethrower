@@ -115,10 +115,7 @@
             "use": "usual",
             "text": "CERNER, CERNER CERNER",
             "family": "CERNER",
-            "given": [
-              "CERNER",
-              "CERNER"
-            ],
+            "given": ["CERNER", "CERNER"],
             "period": {
               "start": "2017-01-24T16:10:04.000Z"
             }

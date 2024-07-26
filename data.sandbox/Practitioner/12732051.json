@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWHandtevy, Physician - Emergency Medicine",
             "family": "PWHandtevy",
-            "given": [
-              "Physician - Emergency Medicine"
-            ],
+            "given": ["Physician - Emergency Medicine"],
             "period": {
               "start": "2020-01-16T17:39:21.000Z"
             }

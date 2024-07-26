@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "Hong, Jennifer",
             "family": "Hong",
-            "given": [
-              "Jennifer"
-            ],
+            "given": ["Jennifer"],
             "period": {
               "start": "2020-04-22T15:04:48.000Z"
             }

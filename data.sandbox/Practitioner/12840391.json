@@ -54,12 +54,8 @@
             "use": "usual",
             "text": "PWCareFusionTwo, MD, Cardio",
             "family": "PWCareFusionTwo",
-            "given": [
-              "Cardio"
-            ],
-            "prefix": [
-              "MD"
-            ],
+            "given": ["Cardio"],
+            "prefix": ["MD"],
             "period": {
               "start": "2023-05-19T22:15:26.000Z"
             }

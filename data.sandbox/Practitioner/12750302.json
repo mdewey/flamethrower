@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "PWTwistle, MD, Cardio",
             "family": "PWTwistle, MD",
-            "given": [
-              "Cardio"
-            ],
+            "given": ["Cardio"],
             "period": {
               "start": "2021-03-04T16:05:13.000Z"
             }

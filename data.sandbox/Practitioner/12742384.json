@@ -44,9 +44,7 @@
             "use": "usual",
             "text": "PWMEDACTIONPLAN, Physician - Hospitalist",
             "family": "PWMEDACTIONPLAN",
-            "given": [
-              "Physician - Hospitalist"
-            ],
+            "given": ["Physician - Hospitalist"],
             "period": {
               "start": "2020-03-04T15:59:06.000Z"
             }

@@ -54,9 +54,7 @@
             "use": "usual",
             "text": "TEST, DBA",
             "family": "TEST",
-            "given": [
-              "DBA"
-            ],
+            "given": ["DBA"],
             "period": {
               "start": "2020-05-21T02:10:23.000Z"
             }

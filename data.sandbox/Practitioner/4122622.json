@@ -97,10 +97,7 @@
             "use": "usual",
             "text": "Cerner Test, Physician - Hospitalist Cerner",
             "family": "Cerner Test",
-            "given": [
-              "Physician - Hospitalist",
-              "Cerner"
-            ],
+            "given": ["Physician - Hospitalist", "Cerner"],
             "period": {
               "start": "2015-09-22T20:58:42.000Z"
             }
@@ -117,9 +114,7 @@
           {
             "use": "billing",
             "text": "1989 Cornelia St\nKansas City, MO 64012\nUS",
-            "line": [
-              "1989 Cornelia St"
-            ],
+            "line": ["1989 Cornelia St"],
             "city": "Kansas City",
             "district": "Jackson",
             "state": "MO",
@@ -129,9 +124,7 @@
           {
             "use": "work",
             "text": "1234 Main\nKansas City, MO 64111\nUS",
-            "line": [
-              "1234 Main"
-            ],
+            "line": ["1234 Main"],
             "city": "Kansas City",
             "state": "MO",
             "postalCode": "64111",
