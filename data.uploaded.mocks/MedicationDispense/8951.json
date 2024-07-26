@@ -1,0 +1,132 @@
+{
+  "resourceType": "MedicationDispense",
+  "id": "8951",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2024-07-26T14:58:33.945Z",
+    "source": "#14cf5a615fad7114cc8b1e7729f69f28"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Medication Dispense</b></p><p><b>Patient</b>: SMART, WILMA</p><p><b>Medication</b>: acetaminophen 650 mg Supp</p><p><b>Authorizing Prescription</b>: MedicationRequest/311877819</p><p><b>Status</b>: In Progress</p><p><b>Performers</b>: Graham, Joshua, Organization/1024451</p><p><b>Type</b>: FIRST_FILL_COMPLETE</p><p><b>Dispense Quantity</b>: 30.0 EA</p><p><b>Dosage Instructions</b>: 1XD</p></div>"
+  },
+  "status": "in-progress",
+  "category": {
+    "coding": [
+      {
+        "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4500",
+        "code": "638955",
+        "display": "Retail",
+        "userSelected": true
+      },
+      {
+        "system": "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category",
+        "code": "community",
+        "display": "Community",
+        "userSelected": false
+      }
+    ],
+    "text": "Retail"
+  },
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "198443",
+        "display": "Acetaminophen 650 MG Rectal Suppository",
+        "userSelected": false
+      }
+    ],
+    "text": "acetaminophen 650 mg Supp"
+  },
+  "subject": {
+    "reference": "Patient/8948",
+    "display": "SMART, WILMA"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Organization/8949"
+      }
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/8950"
+      }
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+        "code": "FFC",
+        "display": "First Fill - Complete",
+        "userSelected": false
+      }
+    ],
+    "text": "FIRST_FILL_COMPLETE"
+  },
+  "quantity": {
+    "value": 30,
+    "unit": "EA",
+    "system": "http://unitsofmeasure.org",
+    "code": "{Each}"
+  },
+  "daysSupply": {
+    "value": 30,
+    "unit": "days",
+    "system": "http://unitsofmeasure.org",
+    "code": "d"
+  },
+  "dosageInstruction": [
+    {
+      "text": "1XD",
+      "timing": {
+        "code": {
+          "coding": [
+            {
+              "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4003",
+              "code": "696530",
+              "display": "Daily",
+              "userSelected": true
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
+              "code": "QD",
+              "display": "QD",
+              "userSelected": false
+            }
+          ],
+          "text": "Daily"
+        }
+      },
+      "route": {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/4001",
+            "code": "318186",
+            "display": "PR",
+            "userSelected": true
+          },
+          {
+            "system": "http://snomed.info/sct",
+            "code": "37161004",
+            "display": "Rectal route (qualifier value)",
+            "userSelected": false
+          }
+        ],
+        "text": "PR"
+      },
+      "doseAndRate": [
+        {
+          "doseQuantity": {
+            "value": 30,
+            "unit": "EA",
+            "system": "http://unitsofmeasure.org",
+            "code": "{Each}"
+          }
+        }
+      ]
+    }
+  ]
+}
