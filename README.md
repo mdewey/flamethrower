@@ -67,6 +67,11 @@ Practitioner/2
 
 # I need to create
 
-In order to create a Medical Dispense, I need to create
+To recreate the meds dis I need to create and save the ids of a
 
-- Create a pracitioner
+"reference": "Patient/12724065",
+"reference": "Encounter/97953483"
+"reference": "Practitioner/12724045",
+"reference": "Organization/1024451"
+"reference": "Location/2552105067",
+"reference": "MedicationRequest/311877819"
