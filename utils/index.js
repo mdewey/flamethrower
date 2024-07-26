@@ -22,9 +22,9 @@ const openJsonFile = ({ folder, fileName, dataFolder = 'data' }) => {
   return json;
 };
 
-const saveJsonFile = ({ folder, fileName, data }) => {
+const saveJsonFile = ({ folder, fileName, data, dataFolder = 'data' }) => {
   const pathToSave = path
-    .join(dirname.replace('\\utils', ''), `/data/${folder}/${fileName}`);
+    .join(dirname.replace('\\utils', ''), `/${dataFolder}/${folder}/${fileName}`);
   // check if file exists
   logger.info({ path: pathToSave, dirname }, 'saving file');
   fs.outputJSONSync(pathToSave, data, { spaces: 2 });

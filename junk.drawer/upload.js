@@ -3,7 +3,7 @@ import axios from 'axios';
 import https from 'node:https';
 
 import { log } from 'node:console';
-import { openJsonFile, logger } from '../utils/index.js';
+import { openJsonFile, logger, saveJsonFile } from '../utils/index.js';
 import { getAndSaveCernerResource } from '../utils/cerner.js';
 
 const FHIR_MOCK_SERVER = 'https://mhv-intb-api.myhealth.va.gov/fhir-ignite';
@@ -76,13 +76,22 @@ const MedicationDispenseFactory = async ({
   return data;
 }
 
-const saveJsonToMocks = async () => {}
+const saveJsonToFolder = async ({json}) => {
+  saveJsonFile({
+    folder:json.resourceType,
+    fileName:`${json.id}.json`,
+    data:json, 
+    dataFolder:'data.uploaded.mocks'
+  })
+}
 
 const upload = async () => {
   logger.info('doing the thing');
 
   // upload the patient
   const patient = await uploadFileToFhirServer('Patient/wilma');
+  saveJsonToFolder({json:patient})
+
   // get the patient id
   const patientReference = `Patient/${patient.id}`;
   // set the reference on the medication dispense
@@ -93,7 +102,7 @@ const upload = async () => {
   logger.info({medsDispense});
   // upload the medications dispense
   const final = await uploadToFHIRServer(medsDispense);
-  logger.info({final})
+  saveJsonToFolder({json:final})
 };
 
 export {
