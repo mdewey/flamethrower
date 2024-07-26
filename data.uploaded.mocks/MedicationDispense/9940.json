@@ -1,29 +1,15 @@
 {
   "resourceType": "MedicationDispense",
+  "id": "9940",
   "meta": {
-    "versionId": "0",
-    "lastUpdated": "2020-05-11T20:51:22.000Z"
+    "versionId": "1",
+    "lastUpdated": "2024-07-26T16:35:29.630Z",
+    "source": "#9aa9cdba00fdd794625bc8e0d664cc36"
   },
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Medication Dispense</b></p><p><b>Patient</b>: SMART, WILMA</p><p><b>Medication</b>: acetaminophen 650 mg Supp</p><p><b>Authorizing Prescription</b>: MedicationRequest/311877819</p><p><b>Status</b>: In Progress</p><p><b>Performers</b>: Graham, Joshua, Organization/1024451</p><p><b>Type</b>: FIRST_FILL_COMPLETE</p><p><b>Dispense Quantity</b>: 30.0 EA</p><p><b>Dosage Instructions</b>: 1XD</p></div>"
   },
-  "subject": {
-    "reference": "Patient/update-me-dynamically",
-    "display": "SMART, WILMA"
-  },
-  "performer": [
-    
-  ],
-  "location":{
-    "reference": "Location/update-me-dynamically"
-  },
-  "context": {
-    "reference": "Encounter/update-me-dynamically"
-  },
-  "authorizingPrescription": [
- 
-  ],
   "status": "in-progress",
   "category": {
     "coding": [
@@ -42,7 +28,6 @@
     ],
     "text": "Retail"
   },
-
   "medicationCodeableConcept": {
     "coding": [
       {
@@ -54,8 +39,33 @@
     ],
     "text": "acetaminophen 650 mg Supp"
   },
-  
-  
+  "subject": {
+    "reference": "Patient/9934",
+    "display": "SMART, WILMA"
+  },
+  "context": {
+    "reference": "Encounter/9938"
+  },
+  "performer": [
+    {
+      "actor": {
+        "reference": "Organization/9935"
+      }
+    },
+    {
+      "actor": {
+        "reference": "Practitioner/9936"
+      }
+    }
+  ],
+  "location": {
+    "reference": "Location/9937"
+  },
+  "authorizingPrescription": [
+    {
+      "reference": "MedicationRequest/9939"
+    }
+  ],
   "type": {
     "coding": [
       {
@@ -68,13 +78,13 @@
     "text": "FIRST_FILL_COMPLETE"
   },
   "quantity": {
-    "value": 30.0,
+    "value": 30,
     "unit": "EA",
     "system": "http://unitsofmeasure.org",
     "code": "{Each}"
   },
   "daysSupply": {
-    "value": 30.0,
+    "value": 30,
     "unit": "days",
     "system": "http://unitsofmeasure.org",
     "code": "d"
@@ -121,7 +131,7 @@
       "doseAndRate": [
         {
           "doseQuantity": {
-            "value": 30.0,
+            "value": 30,
             "unit": "EA",
             "system": "http://unitsofmeasure.org",
             "code": "{Each}"

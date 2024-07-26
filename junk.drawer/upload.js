@@ -63,13 +63,92 @@ const uploadFileToFhirServer = async (resourceId) => {
 };
 
 
+
+
+
+const medicationsRequestFactory = ({
+  resourceId,
+  patient,
+  encounter,
+  practitioner,
+}) => {
+  const { resource, id } = splitResourceId(resourceId);
+  const data = openJsonFile({
+    dataFolder: 'data.templates',
+    folder: resource,
+    fileName: `${id}.json`,
+  });
+  data.subject.reference = patient
+  data.encounter.reference = encounter
+  data.requester.reference = practitioner
+  return data;
+}
+
+const encounterFactory = ({
+  resourceId,
+  patient,
+  location,
+  practitioner,
+}) => {
+  const { resource, id } = splitResourceId(resourceId);
+  const data = openJsonFile({
+    dataFolder: 'data.templates',
+    folder: resource,
+    fileName: `${id}.json`,
+  });
+  data.subject.reference = patient
+  data.location = [
+    {
+      "location": {
+        "reference": location,
+        "display": "Model Cancer Center, MX CC, MedOncClin"
+      },
+      "status": "completed"
+    }
+  ]
+
+  data.participant = [{
+    "type": [
+      {
+        "coding": [
+          {
+            "system": "https://fhir.cerner.com/ec2458f2-1e24-41c8-b71b-0e701af7583d/codeSet/333",
+            "code": "1116",
+            "display": "Admitting Physician",
+            "userSelected": true
+          },
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+            "code": "ADM",
+            "display": "admitter",
+            "userSelected": false
+          }
+        ],
+        "text": "Admitting Physician"
+      }
+    ],
+    "period": {
+      "start": "2020-03-05T17:29:10.000Z"
+    },
+    "individual": {
+      "reference": practitioner,
+      "display": "Carter, Kristin Cerner"
+    }
+  }]
+
+  return data;
+}
+
+
 //TODO: add display names at some point
-const MedicationDispenseFactory = async ({
+const medicationDispenseFactory = async ({
   resourceId,
   patient,
   organization,
   practitioner,
-  location
+  location,
+  encounter,
+  medicationsRequest
 })=> {
   const { resource, id } = splitResourceId(resourceId);
   const data = openJsonFile({
@@ -89,7 +168,10 @@ const MedicationDispenseFactory = async ({
     }
   })
   data.location.reference = location;
-
+  data.authorizingPrescription.push({
+    "reference": medicationsRequest
+  })
+  data.context.reference = encounter
   return data;
 }
 
@@ -127,13 +209,41 @@ const upload = async () => {
   saveJsonToFolder({json:location});
   const locationReference = `Location/${location.id}`
 
+  // create encounter
+  const encounter = encounterFactory({
+    resourceId: 'Encounter/sample',
+    patient:patientReference,
+    location:locationReference,
+    practitioner:practitionerReference,
+  })
+
+  const encounterEntry = await uploadToFHIRServer(encounter);
+  saveJsonToFolder({json:encounterEntry});
+  const encounterReference = `Encounter/${encounterEntry.id}`
+  
+  
+  // add  medsrequest
+  const medsRequest = medicationsRequestFactory({
+    resourceId:"MedicationsRequest/sample",
+    patient:patientReference,
+    encounter:encounterReference, 
+    practitioner:practitionerReference
+  })
+  const medsRequestEntry = await uploadToFHIRServer(medsRequest);
+  saveJsonToFolder({json:medsRequestEntry})
+
+  const medsRequestReference = `MedicationRequest/${medsRequestEntry.id}`
+
+
   // set the reference on the medication dispense
-  const  medsDispense = await MedicationDispenseFactory({
+  const  medsDispense = await medicationDispenseFactory({
     resourceId:'MedicationDispense/sample',
     patient:patientReference,
     organization: orgReference,
     practitioner:practitionerReference,
-    location:locationReference
+    location:locationReference,
+    encounter:encounterReference,
+    medicationsRequest:medsRequestReference
   });
   logger.info({medsDispense});
   // // upload the medications dispense
