@@ -4,8 +4,7 @@ import https from 'node:https';
 
 import { openJsonFile, logger, saveJsonFile } from '../utils/index.js';
 
-const FHIR_MOCK_SERVER = 'https://mhv-intb-api.myhealth.va.gov/fhir-ignite';
-// const FHIR_MOCK_SERVER = 'http://localhost:3000/r4/123-123-123';
+const { FHIR_MOCK_SERVER } = process.env;
 
 const httpsAgent = new https.Agent({
   rejectUnauthorized: false, // (NOTE: this will disable client verification)
@@ -167,8 +166,6 @@ const saveJsonToFolder = async ({ json }) => {
 };
 
 const upload = async () => {
-  logger.info('doing the thing');
-
   // upload the patient
   const patient = await uploadFileToFhirServer('Patient/wilma');
   saveJsonToFolder({ json: patient });
@@ -224,7 +221,6 @@ const upload = async () => {
     encounter: encounterReference,
     medicationsRequest: medsRequestReference,
   });
-  logger.info({ medsDispense });
   // // upload the medications dispense
   const final = await uploadToFHIRServer(medsDispense);
   saveJsonToFolder({ json: final });

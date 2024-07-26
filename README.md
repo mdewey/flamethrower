@@ -1,77 +1,48 @@
-# Things
+# Flamethrower
 
-- Share
-- document
-- refactor??
+BLUF: this tool kit is for creating mock FHIR data for Medications Dispense. The goal is to create mock Medications Dispense, and all the referenced resources, in the FHIR-ignite server.
 
-# Mock data tree
+## Idea
 
-To get the `\data\MedicationDispense\sample.json` Upload I need
+- re-create OH health data in the lower enviroments of the MHV ecosystem
+- Create a way to easliy recreate and create test data
 
-"id": "5210966",
+## Process
 
-"reference": "Patient/12724065",
+- Start with the Medications Dispense FHIR object
+- Download the FHIR json of the resources from the sandbox
+- Strip out the entries from the bundles
+- Upload entries in the correct order determined by the references
 
-Practitioner/12744688
-Practitioner/12732053
-Practitioner/4122622
+## How to use
 
-"reference": "Practitioner/12724045",
+- All the tools are in the `junk.drawer` folder
+  - `cerner.js` has tools for interacting with the OH sandbox
+  - `reference.download` has tools for downloading all references that a
+  - `upload` has tools and processes for creating and uploading the data in the FHIR-ignite server.
 
-- no references
+## data folders
 
-"reference": "Encounter/97953483"
+- `data.uploaded.mocks` is a copy of what was created in the MHV fhir-igite API
+- `data.templates` is the templated resources that are used to create new data
+- `data.sample.requirements`; the requirement for the mocks
+- `data`; generic folder for data that didn't fit anywhere else
 
-- 50 refences to practiioners
-  'Practitioner/11817978', 'Practitioner/763923',
-  'Practitioner/12744839', 'Practitioner/12793249',
-  'Practitioner/12840391', 'Practitioner/12784022',
-  'Practitioner/12750302', 'Practitioner/12742069',
-  'Practitioner/12759637', 'Practitioner/12732057',
-  'Practitioner/12742711', 'Practitioner/12742666',
-  'Practitioner/12732049', 'Practitioner/12732063',
-  'Practitioner/12742668', 'Practitioner/12742614',
-  'Practitioner/12742384', 'Practitioner/4122625',
-  'Practitioner/1', 'Practitioner/12742667',
-  'Practitioner/12746397', 'Practitioner/12742892',
-  'Practitioner/607928', 'Practitioner/12798938',
-  'Practitioner/12807021', 'Practitioner/12784000',
-  'Practitioner/12743472', 'Practitioner/744113',
-  'Practitioner/12762687', 'Practitioner/12747925',
-  'Practitioner/12718044', 'Practitioner/12724045',
-  'Practitioner/12743144', 'Practitioner/12724064',
-  'Practitioner/12742072', 'Practitioner/12743897',
-  'Practitioner/12742070', 'Practitioner/12742071',
-  'Practitioner/12742694', 'Practitioner/12736052',
-  'Practitioner/12732051', 'Practitioner/12724044',
-  'Practitioner/12742490', 'Practitioner/12742530',
-  'Practitioner/12732044', 'Practitioner/12742500',
-  'Practitioner/12742606', 'Practitioner/12742596',
-  'Practitioner/744122', 'Practitioner/12742577'
-- 1 to Organization/1024451
-- 1 to Location/165826097
+## Order for uploading Medication Dispense
 
-"reference": "Organization/1024451"
+To upload a Medications Dispense resource, the references must be created in this order
 
-- no references
+- patient
+- organization
+- practitioner
+- location
+- encounter
+- Medication Request
+- Medication Dispense
 
-"reference": "Location/2552105067",
+## To use
 
-- no references
-
-"reference": "MedicationRequest/311877819"
-
-Patient/12724065
-Encounter/97953483
-Practitioner/2
-
-# I need to create
-
-To recreate the meds dis I need to create and save the ids of a
-
-- [x]"reference": "Patient/12724065",
-- [x]"reference": "Encounter/97953483"
-- [x]"reference": "Practitioner/12724045",
-- [x]"reference": "Organization/1024451"
-- [x]"reference": "Location/2552105067",
-- [x]"reference": "MedicationRequest/311877819"
+- Create a new template for all the resources that needed in the data folder
+- Update the resource ids in the `junk.drawer.js/upload.js`.`upload` to point the new templates
+- `npm start`
+- Debug the challenges
